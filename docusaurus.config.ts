@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'iNT IT Knowledge Sharing',
-  tagline: 'Dinosaurs are cool',
+  title: 'iNT Knowledge Hub',
+  tagline: 'Sharing Knowledge, Empowering iNT',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,10 +68,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Knowledge Hub',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'iNT Logo',
+        src: 'img/cropped-iNT_Logo-180x180.png',
       },
       items: [
         {

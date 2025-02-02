@@ -1,41 +1,66 @@
-# Website
+# IT Knowledge Sharing
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## ยินดีต้อนรับสู่ iNT Knowledge Sharing Platform!
 
-### Installation
+แพลตฟอร์มนี้ถูกพัฒนาขึ้นเพื่อเป็นแหล่งรวมความรู้และแบ่งปันข้อมูลที่เป็นประโยชน์สำหรับบุคลากรของสถาบัน iNT มหาวิทยาลัยมหิดล
 
-```
-$ yarn
-```
+## เกี่ยวกับโปรเจกต์
 
-### Local Development
+โปรเจกต์นี้ใช้ Docusaurus ซึ่งเป็นเครื่องมือที่ช่วยในการสร้างเว็บไซต์เอกสารและ Knowledge Base ได้อย่างง่ายดาย
 
-```
-$ yarn start
-```
+## การเริ่มต้นใช้งาน
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### สิ่งที่ต้องมี
 
-### Build
+* Node.js (เวอร์ชัน >= 18)
+* Yarn
 
-```
-$ yarn build
-```
+### ขั้นตอนการติดตั้ง
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. Clone repository นี้:
+    ```bash
+    git clone https://github.com/iNT-Mahidol/IT-Knowledge-Sharing.git
+    ```
+2. เข้าไปในโฟลเดอร์โปรเจกต์:
+    ```bash
+    cd IT-Knowledge-Sharing
+    ```
+3. ติดตั้ง dependencies โดยใช้ Yarn:
+    ```bash
+    yarn install
+    ```
+4. รันโปรเจกต์:
+    ```bash
+    yarn start
+    ```
+5. เปิดเว็บบราวเซอร์และเข้าไปที่ `http://localhost:3000` เพื่อดูเว็บไซต์
 
-### Deployment
+## การพัฒนา
 
-Using SSH:
+หากต้องการมีส่วนร่วมในการพัฒนาโปรเจกต์นี้ สามารถทำได้โดย:
 
-```
-$ USE_SSH=true yarn deploy
-```
+1. สร้าง branch ใหม่:
+    ```bash
+    git checkout -b feature/your-feature
+    ```
+2. แก้ไขโค้ด
 
-Not using SSH:
+3. Commit การเปลี่ยนแปลง:
+    ```bash
+    git commit -m "Add your feature"
+    ```
+4. Push branch ขึ้น repository:
+    ```bash
+    git push origin feature/your-feature
+    ```
+5. สร้าง Pull Request เพื่อรวม branch ของคุณเข้ากับ branch หลัก
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## การปรับแต่ง
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+คุณสามารถปรับแต่งเว็บไซต์ได้ตามต้องการ โดยแก้ไขไฟล์ต่างๆ ใน directory `src` และ `docs`
+
+## การใช้งาน
+
+* `yarn start`: เริ่ม development server
+* `yarn build`: สร้าง build สำหรับ production
+* `yarn deploy`: deploy เว็บไซต์
