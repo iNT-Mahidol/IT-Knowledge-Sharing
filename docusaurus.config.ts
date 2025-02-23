@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'iNT Knowledge Hub',
-  tagline: 'Sharing Knowledge, Empowering iNT',
+  title: 'iNT IT Knowledge Sharing',
+  tagline: 'แหล่งรวมความรู้และเทคโนโลยีสำหรับบุคลากร iNT',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
