@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import { Button } from 'reactstrap';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -18,11 +19,11 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          <Button
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+            เข้าสู่เนื้อหา
+          </Button>
         </div>
       </div>
     </header>

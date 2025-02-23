@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'เข้าถึงง่าย เรียนรู้ได้ทันที',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        iNT IT Knowledge Sharing ถูกออกแบบมาให้ใช้งานง่าย ไม่ว่าคุณจะเป็นมือใหม่หรือผู้เชี่ยวชาญก็สามารถเข้าถึงความรู้และเรียนรู้ได้ทันที
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'มุ่งเน้นเนื้อหาที่ตรงประเด็น',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        เราคัดสรรเนื้อหาที่ตรงประเด็นและเป็นประโยชน์ต่อการทำงานของคุณ เพื่อให้คุณสามารถนำความรู้ไปประยุกต์ใช้ได้จริง
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'ขับเคลื่อนด้วยเทคโนโลยีที่ทันสมัย',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        เว็บไซต์ของเราพัฒนาด้วย React ซึ่งเป็นเทคโนโลยีที่ทันสมัยและมีประสิทธิภาพ เพื่อให้คุณได้รับประสบการณ์การใช้งานที่ดีที่สุด
       </>
     ),
   },
