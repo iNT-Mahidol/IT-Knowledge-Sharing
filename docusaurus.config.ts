@@ -30,7 +30,9 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: [
+    ['./src/plugins/tailwind-config.js', {}],
+  ],
   presets: [
     [
       'classic',
