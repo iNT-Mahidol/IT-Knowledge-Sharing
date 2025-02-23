@@ -78,15 +78,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'msoffice',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/iNT-Mahidol/IT-Knowledge-Sharing',
-          label: 'GitHub',
-          position: 'right',
+          label: 'Microsoft Office',
         },
       ],
     },
