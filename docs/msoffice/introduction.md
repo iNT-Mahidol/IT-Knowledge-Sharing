@@ -9,11 +9,8 @@ Welcome to the Microsoft Office Knowledge Sharing documentation. This page serve
     - [Word](#word)
     - [Excel](#excel)
     - [PowerPoint](#powerpoint)
-3. [Best Practices](#best-practices)
-4. [Resources](#resources)
 
 ## Introduction
-1
 This documentation aims to provide comprehensive information and resources for various Microsoft Office tools. Whether you are a beginner or an experienced professional, you will find valuable insights and guidelines to enhance your knowledge and skills.
 
 ## Microsoft Office Tools
@@ -29,7 +26,3 @@ Microsoft Excel is a spreadsheet application that enables you to organize, analy
 ### PowerPoint
 
 Microsoft PowerPoint is a presentation application that allows you to create engaging and visually appealing presentations. It offers a variety of templates, themes, and multimedia integration to enhance your storytelling.
-
-## Best Practices
-
-## Resources
