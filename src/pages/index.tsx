@@ -19,11 +19,11 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Button
+          <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/msoffice/introduction">
             เข้าสู่เนื้อหา
-          </Button>
+          </Link>
         </div>
       </div>
     </header>
