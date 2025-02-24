@@ -45,8 +45,8 @@ Mail Merge คือฟังก์ชันที่ช่วยสร้าง
 :::note
 
 ตัวอย่างไฟล์
-[Invitation Template](./assets/mailmerge_Invitation_Letter_Template.docx)
-[Participant Data](./assets/mailmerge_data.xlsx)
+- [Invitation Template](./assets/mailmerge_Invitation_Letter_Template.docx)
+- [Participant Data](./assets/mailmerge_data.xlsx)
 
 :::
 
@@ -56,6 +56,11 @@ Mail Merge คือฟังก์ชันที่ช่วยสร้าง
 
 1.  เปิด Mail Merge Wizard ใน MS Word
 2.  เลือกประเภทเอกสาร (Letters, Emails, Envelopes, Labels, Directory)
+![StartMailMErge](./assets/mailmerge_howto_1.jpg)
+
+### เลือกแม่แบบ
+1. เลือกแม่แบบเอกสารที่ต้องการใช้ (Template) หรือสร้างใหม่
+2. เลือกแม่แบบจากไฟล์ปัจจุบัน
 
 ### การเลือกแหล่งข้อมูล
 
