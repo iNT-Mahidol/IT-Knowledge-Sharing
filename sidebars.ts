@@ -31,6 +31,17 @@ const sidebars: SidebarsConfig = {
         }
       ]
     },
+    {
+      type:'category',
+      label:'Word',
+      items:[
+        {
+          type: 'doc',
+          id: 'msoffice/word/mailmerge',
+          label: 'Mail Merge'
+        }
+      ]
+    },
   ],
 
   // But you can create a sidebar manually
