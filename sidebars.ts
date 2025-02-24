@@ -27,7 +27,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'msoffice/excel/flashfill',
-          label: 'Flasfill'
+          label: 'Flash Fill'
         }
       ]
     },
