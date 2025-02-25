@@ -51,7 +51,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Knowledge Hub',
+      title: 'Knowledge Sharing',
       logo: {
         alt: 'iNT Logo',
         src: 'img/cropped-iNT_Logo-180x180.png',
