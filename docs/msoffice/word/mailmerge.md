@@ -1,4 +1,4 @@
-# Mail Merge ส่งอีเมลชุด จกหมายเวียน ได้รวดเร็ว
+# Mail Merge ส่งอีเมลคราวเดียว จดหมายเวียน ได้รวดเร็ว
 
 ## 1. บทนำ
 
@@ -61,26 +61,32 @@ Mail Merge คือฟังก์ชันที่ช่วยสร้าง
 ### เลือกแม่แบบ
 1. เลือกแม่แบบเอกสารที่ต้องการใช้ (Template) หรือสร้างใหม่
 2. เลือกแม่แบบจากไฟล์ปัจจุบัน
+![StartMailMErge](./assets/mailmerge_howto_2.jpg)
 
 ### การเลือกแหล่งข้อมูล
 
 1.  เลือกไฟล์ข้อมูลที่เตรียมไว้
 2.  เลือกตารางหรือแผ่นงานที่ต้องการใช้
+![StartMailMErge](./assets/mailmerge_howto_3_1.jpg)
+![StartMailMErge](./assets/mailmerge_howto_3_2.jpg)
 
 ### การแทรก Field
 
 1.  แทรก Field จากไฟล์ข้อมูลลงในเอกสาร
 2.  จัดรูปแบบ Field ให้เหมาะสม
+![StartMailMErge](./assets/mailmerge_howto_4.jpg)
 
 ### การ Preview ผลลัพธ์
 
 1.  ดูตัวอย่างเอกสารก่อนที่จะสร้างจริง
 2.  แก้ไขข้อมูลหรือ Field ที่ผิดพลาด
+![StartMailMErge](./assets/mailmerge_howto_5.jpg)
 
 ### การสร้างเอกสาร
 
 1.  สร้างเอกสารทั้งหมด
 2.  เลือกที่จะสร้างเอกสารใหม่, พิมพ์, หรือส่งอีเมล
+![StartMailMErge](./assets/mailmerge_howto_6.jpg)
 
 
 ## 4. ตัวอย่างการนำไปใช้
