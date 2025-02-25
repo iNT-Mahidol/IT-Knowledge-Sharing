@@ -49,7 +49,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/cropped-iNT_Logo-180x180.png',
     navbar: {
       title: 'Knowledge Sharing',
       logo: {
@@ -85,6 +85,16 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    metadata: [
+      { name: 'description', content: 'iNT IT Knowledge Sharing - แหล่งรวมความรู้และเทคโนโลยีสำหรับบุคลากร iNT' },
+      { name: 'keywords', content: 'iNT, IT, Knowledge Sharing, Technology, Mahidol University' },
+      { name: 'author', content: 'iNT Mahidol University' },
+      { name: 'og:title', content: 'iNT IT Knowledge Sharing' },
+      { name: 'og:description', content: 'แหล่งรวมความรู้และเทคโนโลยีสำหรับบุคลากร iNT' },
+      { name: 'og:image', content: 'https://iNT-Mahidol.github.io/img/cropped-iNT_Logo-180x180.png' },
+      { name: 'og:url', content: 'https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/' },
+      { name: 'og:type', content: 'website' },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
