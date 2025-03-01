@@ -5,7 +5,7 @@
 ## สารบัญ
 
 1. [บทนำ](#บทนำ)
-2. [เครื่องมือ Microsoft Office](#เครื่องมือ-microsoft-office)
+2. เครื่องมือ Microsoft Office
     - [Word](#word)
     - [Excel](#excel)
     - [PowerPoint](#powerpoint)
