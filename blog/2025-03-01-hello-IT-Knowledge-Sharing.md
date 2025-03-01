@@ -2,13 +2,7 @@
 title: ยินดีต้อนรับสู่ iNT IT Knowledge Sharing
 description: บล็อกโพสต์ต้อนรับในเว็บไซต์ iNT IT Knowledge Sharing
 slug: welcome-int-it-knowledge-sharing
-authors:
-  - name: Patipat Chewprecha (หม่อน)
-    title: ผู้ร่วมสร้าง iNT IT Knowledge Sharing
-    url: https://github.com/pcbimon
-    image_url: https://github.com/iNT-Mahidol/IT-Knowledge-Sharing/blob/main/static/img/Mhon.jpg?raw=true
-    socials:
-      github: pcbimon
+authors: patipat
 tags: [hello, welcome, introduction]
 image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false

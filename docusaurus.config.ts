@@ -40,6 +40,10 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
+        blog: {
+          blogTitle: 'Blogs',
+          blogDescription: 'Knowledge Sharing Blogs',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -78,7 +82,15 @@ const config: Config = {
             },
           ],
         },
-        
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} iNT Mahidol University. Built with Docusaurus.`,
     },
