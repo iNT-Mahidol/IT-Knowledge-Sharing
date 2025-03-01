@@ -63,6 +63,7 @@ const config: Config = {
           position: 'left',
           label: 'Microsoft Office',
         },
+        {to: 'blog', label: 'Blog', position: 'left'}
       ],
     },
     footer: {
