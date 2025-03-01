@@ -6,7 +6,7 @@ authors:
   - name: Patipat Chewprecha (หม่อน)
     title: ผู้ร่วมสร้าง iNT IT Knowledge Sharing
     url: https://github.com/pcbimon
-    image_url: https://github.com/iNT-Mahidol/IT-Knowledge-Sharing/blob/173d9ed14c3ea79f81d1ce156cb49b9e7bf36d9e/static/img/Mhon.jpg?raw=true
+    image_url: https://github.com/iNT-Mahidol/IT-Knowledge-Sharing/blob/main/static/img/Mhon.jpg?raw=true
     socials:
       github: pcbimon
 tags: [hello, welcome, introduction]
