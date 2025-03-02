@@ -26,10 +26,9 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'th',
-    locales: ['th','en'],
-  },
+  // i18n: {
+  //   defaultLocale: 'th',
+  // },
   plugins: [
     ['./src/plugins/tailwind-config.js', {}],
   ],
@@ -68,10 +67,10 @@ const config: Config = {
           label: 'Microsoft Office',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
