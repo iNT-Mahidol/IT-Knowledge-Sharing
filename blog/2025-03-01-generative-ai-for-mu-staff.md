@@ -64,7 +64,7 @@ hide_table_of_contents: false
 
 **คำตอบจาก Microsoft Copilot:**
 
-![Draft_doc_copilot](./genai/Copilot3.jpg)
+![Analytic](./genai/Copilot3.jpg)
 
 ![วิเคราะห์ข้อมูล](https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=2151&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
@@ -79,13 +79,13 @@ hide_table_of_contents: false
 
 **คำตอบจาก Google Gemini:**
 
-\[ใส่คำตอบจาก Google Gemini ที่นี่]
+![Search_Gemini](./genai/Gemini4.png)
 
 **คำตอบจาก Microsoft Copilot:**
 
-\[ใส่คำตอบจาก Microsoft Copilot ที่นี่]
+![Search_Copilot](./genai/Copilot4.png)
 
-![สืบค้นข้อมูล](https://images.unsplash.com/photo-1588681664899-f142a69ad197?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![สืบค้นข้อมูล](https://images.unsplash.com/photo-1616499370260-485b3e5ed653?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## เริ่มต้นใช้งาน Gemini และ Copilot วันนี้
 
