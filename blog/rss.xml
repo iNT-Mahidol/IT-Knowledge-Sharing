@@ -9,6 +9,72 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[ปลดล็อกศักยภาพการทำงานด้วย Google Gemini และ Microsoft Copilot]]></title>
+            <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff</link>
+            <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff</guid>
+            <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[เรียนรู้การใช้ Google Gemini และ Microsoft Copilot เพื่อเพิ่มประสิทธิภาพในการทำงานด้านเอกสาร วิเคราะห์ข้อมูล และอื่นๆ]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ยกระดับการทำงานใน-int-ด้วย-google-gemini-และ-microsoft-copilot">ยกระดับการทำงานใน iNT ด้วย Google Gemini และ Microsoft Copilot<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%99-int-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-google-gemini-%E0%B9%81%E0%B8%A5%E0%B8%B0-microsoft-copilot" class="hash-link" aria-label="Direct link to ยกระดับการทำงานใน iNT ด้วย Google Gemini และ Microsoft Copilot" title="Direct link to ยกระดับการทำงานใน iNT ด้วย Google Gemini และ Microsoft Copilot">​</a></h2>
+<p>ในยุคที่เทคโนโลยี AI เข้ามามีบทบาทสำคัญในการทำงาน บุคลากร iNT สามารถใช้ประโยชน์จาก Google Gemini และ Microsoft Copilot เพื่อเพิ่มประสิทธิภาพและปลดล็อกศักยภาพใหม่ๆ ในการทำงานประจำวัน
+<img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&amp;w=2050&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gen AI" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ผู้ช่วยอัจฉริยะสำหรับงานเอกสาร">ผู้ช่วยอัจฉริยะสำหรับงานเอกสาร<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%AD%E0%B8%B1%E0%B8%88%E0%B8%89%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3" class="hash-link" aria-label="Direct link to ผู้ช่วยอัจฉริยะสำหรับงานเอกสาร" title="Direct link to ผู้ช่วยอัจฉริยะสำหรับงานเอกสาร">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ร่างหนังสือราชการและอีเมลอย่างมืออาชีพ">ร่างหนังสือราชการและอีเมลอย่างมืออาชีพ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B8%8A%E0%B8%B5%E0%B8%9E" class="hash-link" aria-label="Direct link to ร่างหนังสือราชการและอีเมลอย่างมืออาชีพ" title="Direct link to ร่างหนังสือราชการและอีเมลอย่างมืออาชีพ">​</a></h3>
+<p>เหนื่อยกับการร่างเอกสารราชการหรืออีเมลที่เป็นทางการใช่ไหม? ให้ Gemini และ Copilot ช่วยคุณ!</p>
+<p><strong>ตัวอย่าง Prompt:</strong></p>
+<ul>
+<li>"ร่างหนังสือราชการ เรื่อง ขอความอนุเคราะห์สนับสนุนโครงการ [ชื่อโครงการ] ถึง [หน่วยงาน]"</li>
+<li>"ร่างอีเมลแจ้งกำหนดการประชุมทีม [ชื่อทีม] ในวัน [วัน] เวลา [เวลา]"</li>
+</ul>
+<p><strong>คำตอบจาก Google Gemini:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Draft_doc_germini" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Gemini1-bb5ece8482e41c8ab900a44e96cb11cd.png" width="861" height="1099" class="img_ev3q"></p>
+<p><strong>คำตอบจาก Microsoft Copilot:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Draft_doc_copilot" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Copilot1-4d52499002dc7219de968ee1b3c53a82.png" width="973" height="652" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="สรุปและแก้ไขเอกสารอย่างรวดเร็ว">สรุปและแก้ไขเอกสารอย่างรวดเร็ว<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%81%E0%B9%89%E0%B9%84%E0%B8%82%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%A7%E0%B8%94%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7" class="hash-link" aria-label="Direct link to สรุปและแก้ไขเอกสารอย่างรวดเร็ว" title="Direct link to สรุปและแก้ไขเอกสารอย่างรวดเร็ว">​</a></h3>
+<p>ต้องการสรุปเนื้อหาสำคัญจากเอกสารยาวๆ หรือแก้ไขข้อผิดพลาดทางไวยากรณ์ใช่ไหม? Gemini และ Copilot ช่วยคุณได้!</p>
+<p><strong>ตัวอย่าง Prompt:</strong></p>
+<ul>
+<li>"สรุปเนื้อหาสำคัญจากเอกสาร [ชื่อเอกสาร]"</li>
+<li>"แก้ไขข้อผิดพลาดทางไวยากรณ์และปรับปรุงสำนวนในย่อหน้านี้: [ย่อหน้า]"</li>
+</ul>
+<p><strong>คำตอบจาก Google Gemini:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Draft_doc_germini" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Gemini2-8e58230ca448cfe72221e84a3ad90998.jpg" width="846" height="683" class="img_ev3q"></p>
+<p><strong>คำตอบจาก Microsoft Copilot:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Draft_doc_copilot" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Copilot2-c5f7534397c96b3951a119bf4af68bd0.jpg" width="961" height="393" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ผู้ช่วยวิเคราะห์และสืบค้นข้อมูล">ผู้ช่วยวิเคราะห์และสืบค้นข้อมูล<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5" class="hash-link" aria-label="Direct link to ผู้ช่วยวิเคราะห์และสืบค้นข้อมูล" title="Direct link to ผู้ช่วยวิเคราะห์และสืบค้นข้อมูล">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="วิเคราะห์ข้อมูลและสร้างรายงาน">วิเคราะห์ข้อมูลและสร้างรายงาน<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99" class="hash-link" aria-label="Direct link to วิเคราะห์ข้อมูลและสร้างรายงาน" title="Direct link to วิเคราะห์ข้อมูลและสร้างรายงาน">​</a></h3>
+<p>ต้องการวิเคราะห์ข้อมูลจำนวนมากหรือสร้างรายงานที่เข้าใจง่ายใช่ไหม? ใช้ Gemini และ Copilot เพื่อให้งานของคุณง่ายขึ้น!</p>
+<p><strong>ตัวอย่าง Prompt:</strong></p>
+<ul>
+<li>"วิเคราะห์ข้อมูลยอดขายประจำปีและสร้างรายงานสรุป"</li>
+<li>"สร้างกราฟแสดงแนวโน้มการเติบโตของจำนวนผู้ใช้งาน"</li>
+</ul>
+<p><strong>คำตอบจาก Microsoft Copilot:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Analytic" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Copilot3-f3ef677d93cad477eef55c192723dd3b.jpg" width="1303" height="731" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&amp;w=2151&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="วิเคราะห์ข้อมูล" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ค้นหาข้อมูลและตอบคำถาม">ค้นหาข้อมูลและตอบคำถาม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B2%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%95%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1" class="hash-link" aria-label="Direct link to ค้นหาข้อมูลและตอบคำถาม" title="Direct link to ค้นหาข้อมูลและตอบคำถาม">​</a></h3>
+<p>ต้องการค้นหาข้อมูลเฉพาะหรือหาคำตอบสำหรับคำถามที่ซับซ้อนใช่ไหม? Gemini และ Copilot เป็นแหล่งข้อมูลที่ยอดเยี่ยม!</p>
+<p><strong>ตัวอย่าง Prompt:</strong></p>
+<ul>
+<li>"ค้นหาข้อมูลเกี่ยวกับเทคโนโลยี [ชื่อเทคโนโลยี] ล่าสุด"</li>
+<li>"ตอบคำถาม: [คำถาม]"</li>
+</ul>
+<p><strong>คำตอบจาก Google Gemini:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Search_Gemini" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Gemini4-1cffdc3855f1b3e14e8d5ab6dce9eb44.png" width="1183" height="1598" class="img_ev3q"></p>
+<p><strong>คำตอบจาก Microsoft Copilot:</strong></p>
+<p><img decoding="async" loading="lazy" alt="Search_Copilot" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Copilot4-472644470a5cb164655af14117c896d6.png" width="1251" height="768" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1616499370260-485b3e5ed653?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="สืบค้นข้อมูล" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="เริ่มต้นใช้งาน-gemini-และ-copilot-วันนี้">เริ่มต้นใช้งาน Gemini และ Copilot วันนี้<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/google-gemini-microsoft-copilot-for-staff#%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-gemini-%E0%B9%81%E0%B8%A5%E0%B8%B0-copilot-%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89" class="hash-link" aria-label="Direct link to เริ่มต้นใช้งาน Gemini และ Copilot วันนี้" title="Direct link to เริ่มต้นใช้งาน Gemini และ Copilot วันนี้">​</a></h2>
+<p>บุคลากร iNT สามารถใช้ประโยชน์จาก Gemini และ Copilot เพื่อเพิ่มประสิทธิภาพในการทำงานและปลดล็อกศักยภาพใหม่ๆ ลองใช้เครื่องมือเหล่านี้วันนี้และสัมผัสประสบการณ์การทำงานที่ง่ายและมีประสิทธิภาพมากขึ้น โดยสามารถเข้าใช้งานได้ 2 ช่องทาง</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><ul>
+<li><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Google Gemini</a></li>
+<li><a href="http://office.com/chat" target="_blank" rel="noopener noreferrer">Microsoft Copilot</a></li>
+</ul></div></div>]]></content:encoded>
+            <category>Gemini</category>
+            <category>Copilot</category>
+            <category>AI</category>
+            <category>Productivity</category>
+        </item>
+        <item>
             <title><![CDATA[ยินดีต้อนรับสู่ iNT IT Knowledge Sharing]]></title>
             <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/welcome-int-it-knowledge-sharing</link>
             <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/welcome-int-it-knowledge-sharing</guid>
