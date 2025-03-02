@@ -4,7 +4,7 @@ description: คู่มือการใช้งาน Canva สำหรั
 slug: canva-mahidol-guide
 authors: patipat
 tags: [Canva, Mahidol, Design, Education]
-image: https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://static-cse.canva.com/blob/1118696/feature_video-filters_lead_012x.jpg
 hide_table_of_contents: false
 ---
 
