@@ -4,7 +4,7 @@ description: เรียนรู้การใช้ Google Gemini และ 
 slug: google-gemini-microsoft-copilot-for-staff
 authors: patipat
 tags: [Gemini, Copilot, AI, Productivity]
-image: https://images.unsplash.com/photo-1679654518712-44c062062482?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 hide_table_of_contents: false
 ---
 
