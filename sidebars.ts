@@ -28,6 +28,11 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'msoffice/excel/flashfill',
           label: 'Flash Fill'
+        },
+        {
+          type: 'doc',
+          id: 'msoffice/excel/formular_basic',
+          label: 'Formular Basic'
         }
       ]
     },
