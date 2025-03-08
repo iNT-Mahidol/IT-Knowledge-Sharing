@@ -33,6 +33,11 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'msoffice/excel/formular_basic',
           label: 'Formular Basic'
+        },
+        {
+          type: 'doc',
+          id: 'msoffice/excel/formular_if',
+          label: 'IF Function'
         }
       ]
     },
