@@ -4,10 +4,48 @@
         <title>iNT IT Knowledge Sharing Blog</title>
         <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</link>
         <description>iNT IT Knowledge Sharing Blog</description>
-        <lastBuildDate>Sun, 02 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[เริ่มต้น Excel ง่ายๆ กับสูตรและฟังก์ชัน IF]]></title>
+            <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function</link>
+            <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function</guid>
+            <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Excel Preview]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1658203897339-0b8c64a42fba?q=80&amp;w=2062&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Excel Preview" class="img_ev3q"></p>
+<p>เบื่อไหมกับการทำงานซ้ำๆ บน Excel? อยากให้งานเสร็จไว แถมแม่นยำกว่าเดิม? วันนี้เรามีเคล็ดลับดีๆ มาฝาก!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="เริ่มต้นเขียนสูตร-excel-ง่ายๆ-ใครๆ-ก็ทำได้">เริ่มต้นเขียนสูตร Excel ง่ายๆ ใครๆ ก็ทำได้!<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function#%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3-excel-%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86-%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B9%86-%E0%B8%81%E0%B9%87%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%94%E0%B9%89" class="hash-link" aria-label="Direct link to เริ่มต้นเขียนสูตร Excel ง่ายๆ ใครๆ ก็ทำได้!" title="Direct link to เริ่มต้นเขียนสูตร Excel ง่ายๆ ใครๆ ก็ทำได้!">​</a></h2>
+<p>สำหรับมือใหม่ที่เพิ่งเริ่มใช้ Excel หรือคนที่อยากทบทวนพื้นฐาน เรามีบทความที่จะช่วยให้คุณเข้าใจการเขียนสูตรคำนวณเบื้องต้นได้ง่ายๆ</p>
+<ul>
+<li>รู้จักกับสูตรพื้นฐานที่ใช้บ่อย เช่น SUM, AVERAGE, MIN, MAX</li>
+<li>เรียนรู้การอ้างอิงเซลล์และช่วงข้อมูล</li>
+<li>เคล็ดลับการใช้สูตรให้มีประสิทธิภาพ</li>
+</ul>
+<p><a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/docs/msoffice/excel/formular_basic">อ่านเพิ่มเติม: เริ่มต้นเขียนสูตร Excel สำหรับผู้เริ่มต้น</a></p>
+<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1709318158360-d08b5466d58f?q=80&amp;w=1931&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Formular Basic" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ใช้ฟังก์ชัน-if-ให้เป็น-สร้างการตัดสินใจอัตโนมัติใน-excel">ใช้ฟังก์ชัน IF ให้เป็น: สร้างการตัดสินใจอัตโนมัติใน Excel<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function#%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%99-if-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%83%E0%B8%99-excel" class="hash-link" aria-label="Direct link to ใช้ฟังก์ชัน IF ให้เป็น: สร้างการตัดสินใจอัตโนมัติใน Excel" title="Direct link to ใช้ฟังก์ชัน IF ให้เป็น: สร้างการตัดสินใจอัตโนมัติใน Excel">​</a></h2>
+<p>ฟังก์ชัน IF เป็นเครื่องมือที่ทรงพลัง ช่วยให้คุณสร้างเงื่อนไขและตัดสินใจอัตโนมัติใน Excel ได้</p>
+<ul>
+<li>เข้าใจหลักการทำงานของฟังก์ชัน IF และ IFS</li>
+<li>เรียนรู้การสร้างเงื่อนไขแบบต่างๆ</li>
+<li>ตัวอย่างการประยุกต์ใช้ฟังก์ชัน IF ในงานจริง</li>
+</ul>
+<p><a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/docs/msoffice/excel/formular_if">อ่านเพิ่มเติม: ใช้ฟังก์ชัน IF ให้เป็น: สร้างการตัดสินใจอัตโนมัติใน Excel</a></p>
+<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1429743305873-d4065c15f93e?q=80&amp;w=2067&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Formular IF" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ทำไมต้องเรียนรู้สูตรและฟังก์ชัน-if">ทำไมต้องเรียนรู้สูตรและฟังก์ชัน IF?<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%99-if" class="hash-link" aria-label="Direct link to ทำไมต้องเรียนรู้สูตรและฟังก์ชัน IF?" title="Direct link to ทำไมต้องเรียนรู้สูตรและฟังก์ชัน IF?">​</a></h2>
+<ul>
+<li>ประหยัดเวลา: ทำงานเสร็จเร็วขึ้น ลดงานซ้ำซ้อน</li>
+<li>ลดความผิดพลาด: คำนวณแม่นยำกว่าการทำด้วยมือ</li>
+<li>เพิ่มประสิทธิภาพ: วิเคราะห์ข้อมูลและสร้างรายงานได้ง่ายขึ้น</li>
+</ul>]]></content:encoded>
+            <category>excel</category>
+            <category>สูตร</category>
+            <category>ฟังก์ชัน</category>
+            <category>if</category>
+            <category>ifs</category>
+        </item>
         <item>
             <title><![CDATA[ยกระดับงานออกแบบด้วย Canva สำหรับบุคลากรมหาวิทยาลัยมหิดล]]></title>
             <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/canva-mahidol-guide</link>
