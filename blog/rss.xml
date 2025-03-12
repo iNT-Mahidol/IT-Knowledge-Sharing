@@ -4,10 +4,78 @@
         <title>iNT IT Knowledge Sharing Blog</title>
         <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</link>
         <description>iNT IT Knowledge Sharing Blog</description>
-        <lastBuildDate>Sat, 08 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[นำข้อมูลเข้า Asana จากไฟล์ Excel ง่ายๆ]]></title>
+            <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/import-excel-to-asana</link>
+            <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/import-excel-to-asana</guid>
+            <pubDate>Wed, 12 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Asana Preview]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Asana Preview" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/Asana_Import_Data_from_Excel-a7c553208cadce2efb7a3e00d7c6aaad.jpg" width="1920" height="1080" class="img_ev3q"></p>
+<p>ต้องการนำข้อมูลจาก Excel เข้าสู่ Asana เพื่อการจัดการงานที่มีประสิทธิภาพมากขึ้น? เรามีวิธีง่ายๆ มาฝาก!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ขั้นตอนการนำข้อมูลจาก-excel-เข้า-asana">ขั้นตอนการนำข้อมูลจาก Excel เข้า Asana<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/import-excel-to-asana#%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%B3%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%88%E0%B8%B2%E0%B8%81-excel-%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2-asana" class="hash-link" aria-label="Direct link to ขั้นตอนการนำข้อมูลจาก Excel เข้า Asana" title="Direct link to ขั้นตอนการนำข้อมูลจาก Excel เข้า Asana">​</a></h2>
+<ol>
+<li>
+<p><strong>เตรียมข้อมูล</strong> โดยจะต้องมีการใส่ชื่อคอลัมน์ที่จะนำเข้าไว้บนสุดที่แถวที่ 1
+<img decoding="async" loading="lazy" alt="เตรียมข้อมูล" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/1_prepare-5a168d873ce9bf7d2d2cc517feb04818.png" width="1134" height="545" class="img_ev3q"></p>
+<p><a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/files/ImportDataToAsana-6b9f113f5aabdfa736bff5e95ce446ba.xlsx" target="_blank">ตัวอย่างไฟล์ Excel สำหรับนำเข้า</a></p>
+<p>ไฟล์ตัวอย่างข้อมูลจะมีคอลัมน์ดังนี้:</p>
+<ul>
+<li>ชื่อเรื่องผู้ประดิษฐ์</li>
+<li>วันที่เอกสารเข้า (เก็บในรูปแบบวันที่)</li>
+<li>เลขที่หนังสือ</li>
+<li>เลขที่ลงรับ iNT</li>
+<li>สถานะการดำเนินงาน</li>
+</ul>
+</li>
+<li>
+<p><strong>บันทึกไฟล์ในรูปแบบ CSV</strong> โดยไปที่เมนู <code>File</code> &gt; <code>Save as</code> และเลือกเป็นแบบ <code>CSV UTF-0 (Comma delimited) (*.csv)</code>
+<img decoding="async" loading="lazy" alt="บันทึกไฟล์ CSV" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/2_save_csv-f352d3d186f594ed2826a38748122a46.JPG" width="1140" height="762" class="img_ev3q">
+จะได้ไฟล์ CSV ที่เป็นข้อมูลที่เตรียมไว้โดยสามารถสังเกตุได้จากรูปตัวอย่างด้านล่าง
+<img decoding="async" loading="lazy" alt="ตัวอย่างไฟล์ CSV" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/2_file_detail-9937d62ed9d8b7ae6d617af7dafcafa3.JPG" width="1108" height="406" class="img_ev3q">
+หมายเหตุ: สามารถปรับเปลี่ยนมุมมองของ Folder ให้เป็น Detail เพื่อเห็นนามสกุลไฟล์ได้
+<img decoding="async" loading="lazy" alt="เปิดไฟล์ extension" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/2_file_ext-a182dc8b68c3c553218879aa5dcefd9d.JPG" width="1124" height="648" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>ไปที่ Asana</strong> เลือกทีมที่ต้องการ ไปที่แทป <code>All work</code> และกด <code>New Project</code>
+<img decoding="async" loading="lazy" alt="เลือกทีมใน Asana" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/3_new_project-a402f1699c17442fdc915d8c39e94049.jpg" width="1206" height="693" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>เลือก Import Project</strong>
+<img decoding="async" loading="lazy" alt="Import Project" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/4_import_project-50c8ce0c6d9b4b16660386e1f179770d.jpg" width="707" height="460" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>ตั้งชื่อโปรเจ็คที่ต้องการ</strong> และกด <code>Select file to import</code>
+<img decoding="async" loading="lazy" alt="ตั้งชื่อโปรเจ็ค" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/5_projectname-f087f6fa66abeb03cd52b8d33d8c0431.jpg" width="564" height="405" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>เลือกไฟล์ที่เป็นสกุล CSV</strong> สังเกตุจาก Type <code>Microsoft Excel Comma Separated Value File</code> หรือตรงส่วน Preview เป็นข้อมูลลักษณะคล้ายดังรูป เมื่อเลือกแล้วรอกระบวนการอัพโหลด และกด <code>Continue</code>
+<img decoding="async" loading="lazy" alt="เลือกไฟล์ CSV" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/6_select_csv-7dc8d7cffc34bb7ed7bc81cae4274261.jpg" width="1173" height="797" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Uploaded CSV" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/6_uploaded_csv-905166b00269294e7850f86d37c97da6.jpg" width="744" height="430" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>กดเลือก Direct Import</strong>
+<img decoding="async" loading="lazy" alt="Direct Import" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/7_direct_import-f1c67105801629b4c431310d0d47897a.jpg" width="705" height="613" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>แสดงตัวอย่างข้อมูล</strong> ทำการกด <code>make change</code> เพื่อปรับประเภทข้อมูล
+<img decoding="async" loading="lazy" alt="แสดงตัวอย่างข้อมูล" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/8_make_change-d3792f8f1319d5cb064e326e254a9886.jpg" width="1220" height="551" class="img_ev3q">
+จากข้อมูลข้างต้น วันที่เอกสารเข้า จะต้องเปลี่ยนเป็น <code>Date</code> และสถานะการดำเนินการ จะเปลี่ยนเป็น <code>Single Select</code> โดยกดที่ช่องข้อมูลและเลือกประเภทข้อมูลที่ต้องการ และเมื่อปรับเสร็จแล้วกด <code>Continue to project</code>
+<img decoding="async" loading="lazy" alt="ปรับประเภทข้อมูล" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/8_change_type-61b73f977319aef9314cfa9c831c7c9d.jpg" width="1226" height="530" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>รอการนำเข้าข้อมูลจนเสร็จ</strong>
+<img decoding="async" loading="lazy" alt="รอการนำเข้า" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/9_view_imported-47ef5b5d01ed4935c990e9c61a47af66.jpg" width="1454" height="456" class="img_ev3q"></p>
+</li>
+</ol>]]></content:encoded>
+            <category>asana</category>
+            <category>excel</category>
+            <category>นำเข้า</category>
+            <category>การจัดการงาน</category>
+        </item>
         <item>
             <title><![CDATA[เริ่มต้น Excel ง่ายๆ กับสูตรและฟังก์ชัน IF]]></title>
             <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/excel-formulas-and-if-function</link>
