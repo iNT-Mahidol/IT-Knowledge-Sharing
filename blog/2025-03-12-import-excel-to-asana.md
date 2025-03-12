@@ -3,7 +3,7 @@ slug: import-excel-to-asana
 title: นำข้อมูลเข้า Asana จากไฟล์ Excel ง่ายๆ
 authors: [patipat]
 tags: [asana, excel, นำเข้า, การจัดการงาน]
-image: /IT-Knowledge-Sharing/assets/asana/import-data/Asana_Import_Data_from_Excel.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/2560px-Asana_logo.svg.png
 ---
 
 ![Asana Preview](./asana/import-data/Asana_Import_Data_from_Excel.jpg)
