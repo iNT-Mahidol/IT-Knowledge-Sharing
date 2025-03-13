@@ -6,7 +6,7 @@ tags: [asana, excel, นำเข้า, การจัดการงาน]
 image: img/Asana_Import_Data_from_Excel.jpg
 ---
 
-![Asana Preview](./asana/import-data/Asana_Import_Data_from_Excel.jpg)
+![Import Excel Data to Asana](./asana/import-data/Asana_Import_Data_from_Excel.jpg)
 
 ต้องการนำข้อมูลจาก Excel เข้าสู่ Asana เพื่อการจัดการงานที่มีประสิทธิภาพมากขึ้น? เรามีวิธีง่ายๆ มาฝาก!
 <!-- truncate -->
