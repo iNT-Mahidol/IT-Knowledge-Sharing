@@ -12,7 +12,7 @@
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai</id>
         <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai"/>
         <updated>2025-03-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Prompt Engineering]]></summary>
+        <summary type="html"><![CDATA[การเรียนรู้วิธีการเขียน Prompt ที่มีประสิทธิภาพจะช่วยให้คุณสามารถสั่งงาน Generative AI ได้อย่างแม่นยำและได้ผลลัพธ์ที่ตรงตามความต้องการ บทความนี้จะนำเสนอเคล็ดลับและเทคนิคในการออกแบบ Prompt ที่ดี เพื่อให้คุณสามารถใช้งาน Generative AI ได้อย่างเต็มประสิทธิภาพ]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1712002641088-9d76f9080889?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Prompt Engineering" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
 <p>ในยุคที่ Generative AI เข้ามามีบทบาทในชีวิตประจำวันมากขึ้น หลายคนอาจเคยพบปัญหาในการใช้งาน เช่น</p>
