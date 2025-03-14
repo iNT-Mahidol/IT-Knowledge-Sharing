@@ -4,10 +4,235 @@
         <title>iNT IT Knowledge Sharing Blog</title>
         <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</link>
         <description>iNT IT Knowledge Sharing Blog</description>
-        <lastBuildDate>Wed, 12 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Prompt Engineering: เคล็ดลับสั่งงาน Generative AI ให้ได้คำตอบตรงใจ]]></title>
+            <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai</link>
+            <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai</guid>
+            <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Prompt Engineering]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1712002641088-9d76f9080889?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Prompt Engineering" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
+<p>ในยุคที่ Generative AI เข้ามามีบทบาทในชีวิตประจำวันมากขึ้น หลายคนอาจเคยพบปัญหาในการใช้งาน เช่น</p>
+<ul>
+<li><strong>คำตอบไม่ตรงประเด็น:</strong> ถามอย่างตอบอย่าง ทำให้เสียเวลาในการหาข้อมูลที่ต้องการ</li>
+<li><strong>ใช้ความคิดเห็นส่วนตัว:</strong> คำตอบไม่เป็นกลาง ขาดความน่าเชื่อถือ เพราะไม่ได้อิงตามข้อเท็จจริง</li>
+<li><strong>ข้อมูลไม่ถูกต้อง:</strong> คำตอบผิดพลาด หรือเป็นข้อมูลเก่า ทำให้เกิดความเข้าใจผิด</li>
+</ul>
+<p>ปัญหาเหล่านี้เกิดจากการที่ Generative AI ยังไม่เข้าใจความต้องการของเราอย่างแท้จริง Prompt Engineering จึงเป็นศาสตร์และศิลป์ของการออกแบบข้อความ (Prompt) เพื่อสั่งงาน Generative AI ให้เข้าใจและตอบสนองได้อย่างแม่นยำ บทความนี้จะแนะนำเทคนิคการเขียน Prompt ที่จะช่วยให้คุณดึงศักยภาพของ Generative AI ออกมาได้อย่างเต็มที่ และลดปัญหาการตอบไม่ตรงประเด็น หรือใช้ความคิดเห็นส่วนตัว</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="รูปแบบ-prompt-ที่แนะนำสำหรับงานต่างๆ">รูปแบบ Prompt ที่แนะนำสำหรับงานต่างๆ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A-prompt-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%86" class="hash-link" aria-label="Direct link to รูปแบบ Prompt ที่แนะนำสำหรับงานต่างๆ" title="Direct link to รูปแบบ Prompt ที่แนะนำสำหรับงานต่างๆ">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-การกำหนดบทบาทและบริบท">1. การกำหนดบทบาทและบริบท<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#1-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%94%E0%B8%9A%E0%B8%97%E0%B8%9A%E0%B8%B2%E0%B8%97%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%9A%E0%B8%97" class="hash-link" aria-label="Direct link to 1. การกำหนดบทบาทและบริบท" title="Direct link to 1. การกำหนดบทบาทและบริบท">​</a></h3>
+<p>การกำหนดบทบาทและบริบทที่ชัดเจนจะช่วยให้ Generative AI เข้าใจเป้าหมายและตอบสนองได้ตรงจุดยิ่งขึ้น</p>
+<p><strong>ตัวอย่าง:</strong></p>
+<blockquote>
+<p>กรณีอยากปรึกษาเรื่องเกี่ยวกับการตลาด "คุณคือผู้เชี่ยวชาญด้านการตลาดดิจิทัล จงให้คำแนะนำเกี่ยวกับ..."</p>
+</blockquote>
+<blockquote>
+<p>กรณีต้องการผู้ช่วยเขียนหนังสือราชการ "คุณคือผู้เชี่ยวชาญด้านการเขียนหนังสือราชการ จงช่วยเขียนหนังสือราชการในหัวข้อ..."</p>
+</blockquote>
+<blockquote>
+<p>กรณีต้องการนักวิเคราะห์ข้อมูล "คุณคือนักวิเคราะห์ข้อมูลที่มีประสบการณ์ จงวิเคราะห์ข้อมูลชุดนี้และสรุปผลลัพธ์ที่สำคัญ..."</p>
+</blockquote>
+<blockquote>
+<p>กรณีต้องการผู้ช่วยเรียบเรียงบทความ "คุณคือบรรณาธิการที่มีความเชี่ยวชาญ จงช่วยเรียบเรียงบทความนี้ให้มีความชัดเจนและน่าสนใจ..."</p>
+</blockquote>
+<blockquote>
+<p>กรณีต้องการผู้ช่วยเขียนโปรแกรม "คุณคือโปรแกรมเมอร์ที่มีประสบการณ์ จงช่วยเขียนโค้ดสำหรับฟังก์ชันที่ต้องการ..."</p>
+</blockquote>
+<blockquote>
+<p>กรณีต้องการผู้ช่วยวิเคราะห์ตลาด "คุณคือผู้เชี่ยวชาญด้านการวิเคราะห์ตลาด จงช่วยวิเคราะห์แนวโน้มตลาดในปัจจุบันและให้คำแนะนำ..."</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-การระบุรูปแบบผลลัพธ์ที่ต้องการ">2. การระบุรูปแบบผลลัพธ์ที่ต้องการ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#2-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9C%E0%B8%A5%E0%B8%A5%E0%B8%B1%E0%B8%9E%E0%B8%98%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3" class="hash-link" aria-label="Direct link to 2. การระบุรูปแบบผลลัพธ์ที่ต้องการ" title="Direct link to 2. การระบุรูปแบบผลลัพธ์ที่ต้องการ">​</a></h3>
+<p>การระบุรูปแบบผลลัพธ์ที่ต้องการ เช่น รายการ ตาราง หรือย่อหน้า จะช่วยให้ Generative AI จัดระเบียบข้อมูลได้อย่างเหมาะสม</p>
+<p><strong>ตัวอย่าง:</strong></p>
+<blockquote>
+<p>"สรุปประเด็นสำคัญของบทความนี้ในรูปแบบรายการ 5 ข้อ"</p>
+</blockquote>
+<blockquote>
+<p>"จัดทำตารางเปรียบเทียบข้อดีและข้อเสียของเทคโนโลยี AI"</p>
+</blockquote>
+<blockquote>
+<p>"เขียนย่อหน้าสรุปเกี่ยวกับประโยชน์ของการใช้ AI ในการศึกษา"</p>
+</blockquote>
+<blockquote>
+<p>"สร้างรายการตรวจสอบ (Checklist) สำหรับการพัฒนาโปรเจค AI"</p>
+</blockquote>
+<blockquote>
+<p>"เขียนบทสรุปของรายงานนี้ในรูปแบบย่อหน้า"</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-การให้ตัวอย่าง">3. การให้ตัวอย่าง<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#3-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87" class="hash-link" aria-label="Direct link to 3. การให้ตัวอย่าง" title="Direct link to 3. การให้ตัวอย่าง">​</a></h3>
+<p>การให้ตัวอย่างจะช่วยให้ Generative AI เข้าใจรูปแบบและสไตล์ของคำตอบที่คุณต้องการ</p>
+<p><strong>ตัวอย่าง:</strong></p>
+<blockquote>
+<p>"ตัวอย่าง: [ข้อความ] คำตอบ: [คำตอบ] จงตอบคำถามต่อไปนี้ในรูปแบบเดียวกัน: [คำถาม]"</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-การใช้คำสั่งเชิงลบ">4. การใช้คำสั่งเชิงลบ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#4-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%A5%E0%B8%9A" class="hash-link" aria-label="Direct link to 4. การใช้คำสั่งเชิงลบ" title="Direct link to 4. การใช้คำสั่งเชิงลบ">​</a></h3>
+<p>การใช้คำสั่งเชิงลบจะช่วยให้ Generative AI หลีกเลี่ยงคำตอบที่ไม่ต้องการ</p>
+<p><strong>ตัวอย่าง:</strong></p>
+<blockquote>
+<p>"อย่าให้ข้อมูลที่เป็นความเห็นส่วนตัว จงให้ข้อมูลที่เป็นข้อเท็จจริงเท่านั้น"</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-การแบ่งงานเป็นขั้นตอน">5. การแบ่งงานเป็นขั้นตอน<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#5-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99" class="hash-link" aria-label="Direct link to 5. การแบ่งงานเป็นขั้นตอน" title="Direct link to 5. การแบ่งงานเป็นขั้นตอน">​</a></h3>
+<p>การแบ่งงานที่ซับซ้อนเป็นขั้นตอนย่อยๆ จะช่วยให้ Generative AI ทำงานได้อย่างเป็นระบบและแม่นยำยิ่งขึ้น</p>
+<p><strong>ตัวอย่าง:</strong></p>
+<blockquote>
+<p>"ขั้นตอนที่ 1: [คำสั่ง] ขั้นตอนที่ 2: [คำสั่ง] ขั้นตอนที่ 3: [คำสั่ง]"</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ตัวอย่างการใช้งาน-prompt-engineering-ในงานจริง">ตัวอย่างการใช้งาน Prompt Engineering ในงานจริง<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-prompt-engineering-%E0%B9%83%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87" class="hash-link" aria-label="Direct link to ตัวอย่างการใช้งาน Prompt Engineering ในงานจริง" title="Direct link to ตัวอย่างการใช้งาน Prompt Engineering ในงานจริง">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-การส่งอีเมลเพื่อขอนัดประชุมและมีการให้ตอบกลับ">1. การส่งอีเมลเพื่อขอนัดประชุมและมีการให้ตอบกลับ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#1-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%95%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A" class="hash-link" aria-label="Direct link to 1. การส่งอีเมลเพื่อขอนัดประชุมและมีการให้ตอบกลับ" title="Direct link to 1. การส่งอีเมลเพื่อขอนัดประชุมและมีการให้ตอบกลับ">​</a></h3>
+<p><strong>บทบาทและบริบท:</strong> คุณคือเลขานุการที่ต้องการนัดประชุมกับผู้บริหารหลายท่าน</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>"คุณคือเลขานุการของ คุณสมชาย ใจดี จงร่างอีเมลเพื่อนัดประชุมคณะผู้บริหารในหัวข้อ 'การวางแผนกลยุทธ์ประจำปี 2567' ในวันที่ 15 พฤษภาคม 2567 เวลา 10:00 น. ณ ห้องประชุมใหญ่ ชั้น 10 อาคารสำนักงานใหญ่ โดยให้ผู้รับตอบกลับเพื่อยืนยันการเข้าร่วมประชุมภายในวันที่ 10 พฤษภาคม 2567 หากไม่สามารถเข้าร่วมได้ ให้แจ้งเหตุผลและเสนอวันเวลาที่สะดวกแทน"</p>
+</blockquote>
+<p><strong>ผลลัพธ์ที่คาดหวัง:</strong> อีเมลที่มีเนื้อหาชัดเจน ระบุรายละเอียดการประชุมครบถ้วน และมีคำสั่งให้ผู้รับตอบกลับเพื่อยืนยันการเข้าร่วม</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span><strong>ผลลัทธ์ที่ได้</strong></div><div class="admonitionContent_BuS1"><p><strong>หัวข้อ:</strong> เรียนเชิญประชุมคณะผู้บริหาร: การวางแผนกลยุทธ์ประจำปี 2567</p><p>เรียน คณะผู้บริหารทุกท่าน,</p><p>ตามนโยบายของบริษัทที่ให้ความสำคัญกับการวางแผนกลยุทธ์เพื่อขับเคลื่อนองค์กรให้เติบโตอย่างยั่งยืน คุณสมชาย ใจดี จึงใคร่ขอเรียนเชิญท่านเข้าร่วมการประชุมคณะผู้บริหารเพื่อหารือและวางแผนกลยุทธ์ประจำปี 2567 โดยมีรายละเอียดการประชุมดังนี้:</p><ul>
+<li><strong>หัวข้อ:</strong> การวางแผนกลยุทธ์ประจำปี 2567</li>
+<li><strong>วัน:</strong> วันที่ 15 พฤษภาคม 2567</li>
+<li><strong>เวลา:</strong> 10:00 น.</li>
+<li><strong>สถานที่:</strong> ห้องประชุมใหญ่ ชั้น 10 อาคารสำนักงานใหญ่</li>
+</ul><p>ในการประชุมครั้งนี้ เราจะร่วมกันวิเคราะห์สถานการณ์ปัจจุบัน กำหนดเป้าหมาย และวางแผนกลยุทธ์เพื่อรับมือกับความท้าทายและคว้าโอกาสทางธุรกิจในปี 2567</p><p>จึงเรียนมาเพื่อโปรดยืนยันการเข้าร่วมประชุมของท่านภายในวันที่ 10 พฤษภาคม 2567 เพื่อการเตรียมการที่เหมาะสม หากท่านไม่สามารถเข้าร่วมประชุมได้ โปรดแจ้งเหตุผลและเสนอวันเวลาที่ท่านสะดวกแทน เพื่อที่เราจะสามารถจัดการประชุมเพิ่มเติมได้</p><p>ขอขอบพระคุณสำหรับความร่วมมือของท่าน</p><p>ขอแสดงความนับถือ,</p><p>(ชื่อเลขานุการ)</p><p>เลขานุการของคุณสมชาย ใจดี</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-การร่างเอกสาร-tor-จัดซื้อสักอย่าง-5-รายการ">2. การร่างเอกสาร TOR จัดซื้อสักอย่าง 5 รายการ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#2-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3-tor-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87-5-%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3" class="hash-link" aria-label="Direct link to 2. การร่างเอกสาร TOR จัดซื้อสักอย่าง 5 รายการ" title="Direct link to 2. การร่างเอกสาร TOR จัดซื้อสักอย่าง 5 รายการ">​</a></h3>
+<p><strong>บทบาทและบริบท:</strong> คุณคือนักจัดซื้อที่ต้องการร่างเอกสาร TOR สำหรับจัดซื้ออุปกรณ์สำนักงาน</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>"คุณคือนักจัดซื้อที่มีประสบการณ์ จงร่างเอกสาร TOR สำหรับจัดซื้ออุปกรณ์สำนักงาน 5 รายการ ได้แก่ 1. เครื่องคอมพิวเตอร์ตั้งโต๊ะ 2. เครื่องพิมพ์เลเซอร์ 3. เครื่องสแกนเอกสาร 4. โต๊ะทำงาน 5. เก้าอี้สำนักงาน โดยระบุรายละเอียดคุณสมบัติเฉพาะของแต่ละรายการ เงื่อนไขการส่งมอบ และงบประมาณที่กำหนด"</p>
+</blockquote>
+<p><strong>ผลลัพธ์ที่คาดหวัง:</strong> เอกสาร TOR ที่มีรายละเอียดครบถ้วน ชัดเจน และเป็นไปตามมาตรฐานการจัดซื้อ</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span><strong>ผลลัทธ์ที่ได้</strong></div><div class="admonitionContent_BuS1"><p><strong>เอกสารขอบเขตของงาน (TOR) การจัดซื้ออุปกรณ์สำนักงาน</strong></p><ol>
+<li>บทนำ</li>
+</ol><p>เอกสารฉบับนี้มีวัตถุประสงค์เพื่อกำหนดขอบเขตของงานและคุณสมบัติเฉพาะของอุปกรณ์สำนักงานที่ต้องการจัดซื้อ จำนวน 5 รายการ ได้แก่ เครื่องคอมพิวเตอร์ตั้งโต๊ะ เครื่องพิมพ์เลเซอร์ เครื่องสแกนเอกสาร โต๊ะทำงาน และเก้าอี้สำนักงาน เพื่อใช้ในการปฏิบัติงานของสำนักงาน</p><ol start="2">
+<li>วัตถุประสงค์</li>
+</ol><ul>
+<li>เพื่อจัดหาอุปกรณ์สำนักงานที่มีประสิทธิภาพและเหมาะสมกับการใช้งาน</li>
+<li>เพื่อให้อุปกรณ์สำนักงานมีความทันสมัยและตอบสนองต่อความต้องการของบุคลากร</li>
+<li>เพื่อให้การปฏิบัติงานของสำนักงานเป็นไปอย่างราบรื่นและมีประสิทธิภาพ</li>
+</ul><ol start="3">
+<li>รายละเอียดคุณสมบัติเฉพาะของอุปกรณ์สำนักงาน</li>
+</ol><p>3.1 เครื่องคอมพิวเตอร์ตั้งโต๊ะ (Desktop Computer)</p><ul>
+<li>หน่วยประมวลผลกลาง (CPU): Intel Core i5 หรือเทียบเท่าขึ้นไป</li>
+<li>หน่วยความจำหลัก (RAM): 8GB DDR4 ขึ้นไป</li>
+<li>หน่วยเก็บข้อมูล (Storage): SSD 256GB ขึ้นไป</li>
+<li>จอภาพ (Monitor): ขนาด 24 นิ้ว ความละเอียด 1920x1080 พิกเซล</li>
+<li>ระบบปฏิบัติการ (Operating System): Windows 10/11 Professional หรือเทียบเท่า</li>
+<li>มีช่องเชื่อมต่อ USB 3.0, HDMI, VGA, และ Ethernet</li>
+<li>รับประกัน 3 ปี</li>
+</ul><p>3.2 เครื่องพิมพ์เลเซอร์ (Laser Printer)</p><ul>
+<li>ประเภท: เครื่องพิมพ์เลเซอร์ขาวดำ</li>
+<li>ความเร็วในการพิมพ์: 30 หน้าต่อนาที (ppm) ขึ้นไป</li>
+<li>ความละเอียดในการพิมพ์: 1200x1200 dpi ขึ้นไป</li>
+<li>รองรับการพิมพ์สองหน้าอัตโนมัติ (Duplex Printing)</li>
+<li>มีช่องเชื่อมต่อ USB และ Ethernet</li>
+<li>รับประกัน 1 ปี</li>
+</ul><p>3.3 เครื่องสแกนเอกสาร (Document Scanner)</p><ul>
+<li>ประเภท: เครื่องสแกนเอกสารแบบตั้งโต๊ะ</li>
+<li>ความเร็วในการสแกน: 25 หน้าต่อนาที (ppm) ขึ้นไป</li>
+<li>ความละเอียดในการสแกน: 600 dpi ขึ้นไป</li>
+<li>รองรับการสแกนสองหน้าอัตโนมัติ (Duplex Scanning)</li>
+<li>มีช่องเชื่อมต่อ USB</li>
+<li>รับประกัน 1 ปี</li>
+</ul><p>3.4 โต๊ะทำงาน (Office Desk)</p><ul>
+<li>ขนาด: กว้าง 120 ซม. ยาว 60 ซม. สูง 75 ซม.</li>
+<li>วัสดุ: ไม้ MDF หรือเทียบเท่า</li>
+<li>สี: สีไม้ หรือสีตามที่กำหนด</li>
+<li>มีลิ้นชักเก็บของ</li>
+<li>โครงสร้างแข็งแรง</li>
+</ul><p>3.5 เก้าอี้สำนักงาน (Office Chair)</p><ul>
+<li>ประเภท: เก้าอี้สำนักงานแบบมีล้อเลื่อน</li>
+<li>วัสดุ: เบาะหุ้มด้วยผ้าหรือหนังเทียม</li>
+<li>ปรับระดับความสูงได้</li>
+<li>มีที่พักแขน</li>
+<li>โครงสร้างแข็งแรง</li>
+<li>รับประกัน 1 ปี</li>
+</ul><ol start="4">
+<li>เงื่อนไขการส่งมอบ</li>
+</ol><ul>
+<li>ผู้เสนอราคาต้องจัดส่งอุปกรณ์สำนักงานทั้งหมดภายใน 30 วัน นับจากวันที่ได้รับแจ้งให้ส่งมอบ</li>
+<li>ผู้เสนอราคาต้องติดตั้งและทดสอบการใช้งานอุปกรณ์สำนักงานทั้งหมด ณ สถานที่ที่กำหนด</li>
+<li>ผู้เสนอราคาต้องมีการสอนการใช้งานอุปกรณ์เบื้องต้น</li>
+</ul><ol start="5">
+<li>งบประมาณ</li>
+</ol><ul>
+<li>งบประมาณรวมสำหรับการจัดซื้ออุปกรณ์สำนักงานทั้งหมดไม่เกิน 100,000 บาท</li>
+</ul><ol start="6">
+<li>ข้อกำหนดอื่นๆ</li>
+</ol><ul>
+<li>ผู้เสนอราคาต้องเป็นนิติบุคคลที่จดทะเบียนถูกต้องตามกฎหมาย</li>
+<li>ผู้เสนอราคาต้องมีประสบการณ์ในการจัดจำหน่ายอุปกรณ์สำนักงาน</li>
+<li>ผู้เสนอราคาต้องเสนอราคาพร้อมรายละเอียดคุณสมบัติเฉพาะของอุปกรณ์สำนักงานแต่ละรายการ</li>
+<li>ผู้เสนอราคาต้องแนบแคตตาล็อกสินค้า</li>
+<li>ผู้เสนอราคาต้องแจ้งเงื่อนไขการรับประกัน</li>
+</ul><ol start="7">
+<li>การประเมินผล</li>
+</ol><ul>
+<li>การประเมินผลจะพิจารณาจากคุณสมบัติเฉพาะของอุปกรณ์สำนักงาน ราคา และเงื่อนไขการรับประกัน</li>
+<li>คณะกรรมการจัดซื้อจะทำการประเมินผลและคัดเลือกผู้เสนอราคาที่เหมาะสมที่สุด</li>
+</ul><ol start="8">
+<li>การติดต่อ</li>
+</ol><ul>
+<li>ผู้สนใจสามารถติดต่อสอบถามรายละเอียดเพิ่มเติมได้ที่ [ชื่อผู้ติดต่อ] หมายเลขโทรศัพท์ [หมายเลขโทรศัพท์] หรืออีเมล [อีเมล]</li>
+</ul></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-การสรุปความจากเอกสารที่ส่งไปโดยมีการกำหนดหัวเรื่องไว้">3. การสรุปความจากเอกสารที่ส่งไปโดยมีการกำหนดหัวเรื่องไว้<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#3-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%84%E0%B8%9B%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%94%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%A7%E0%B9%89" class="hash-link" aria-label="Direct link to 3. การสรุปความจากเอกสารที่ส่งไปโดยมีการกำหนดหัวเรื่องไว้" title="Direct link to 3. การสรุปความจากเอกสารที่ส่งไปโดยมีการกำหนดหัวเรื่องไว้">​</a></h3>
+<p><strong>บทบาทและบริบท:</strong> คุณคือผู้จัดการโครงการที่ต้องการสรุปประเด็นสำคัญจากรายงานความคืบหน้าโครงการ</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>"คุณคือผู้จัดการโครงการ จงสรุปประเด็นสำคัญจากรายงานความคืบหน้าโครงการ 'การศึกษาผลกระทบของการใช้เทคโนโลยี AI ในการเรียนการสอน' ที่แนบมา โดยเน้นหัวข้อต่อไปนี้: 1. ความคืบหน้าของงาน 2. ปัญหาและอุปสรรค 3. แผนการดำเนินงานในอนาคต"</p>
+</blockquote>
+<p><strong>ผลลัพธ์ที่คาดหวัง:</strong> สรุปรายงานที่กระชับ ชัดเจน และครอบคลุมประเด็นสำคัญตามหัวข้อที่กำหนด</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span><strong>ผลลัทธ์ที่ได้</strong></div><div class="admonitionContent_BuS1"><p><strong>การรวบรวมข้อมูล:</strong></p><ul>
+<li>สำรวจความคิดเห็นของนักศึกษา 200 คน และอาจารย์ 30 คน ผ่านแบบสอบถามออนไลน์และสัมภาษณ์เชิงลึก</li>
+<li>เก็บรวบรวมข้อมูลผลการเรียนของนักศึกษาในรายวิชาที่ใช้และไม่ใช้เทคโนโลยี AI เพื่อเปรียบเทียบ</li>
+<li>บันทึกข้อมูลพฤติกรรมการเรียน เช่น ระยะเวลาที่ใช้ในการศึกษาเนื้อหา, จำนวนครั้งที่เข้าถึงสื่อการเรียนรู้, และความถี่ในการมีส่วนร่วมในกิจกรรมการเรียนรู้</li>
+</ul><p><strong>การวิเคราะห์ข้อมูลเบื้องต้น:</strong></p><ul>
+<li>ใช้สถิติเชิงพรรณนาและสถิติเชิงอนุมานในการสรุปและทดสอบสมมติฐานเกี่ยวกับผลกระทบของการใช้เทคโนโลยี AI</li>
+<li>วิเคราะห์ข้อมูลเชิงคุณภาพจากแบบสัมภาษณ์เพื่อทำความเข้าใจความคิดเห็นและประสบการณ์ของนักศึกษาและอาจารย์</li>
+</ul><p><strong>การสร้างโมเดล AI:</strong></p><ul>
+<li>พัฒนาโมเดล AI ที่สามารถให้คำแนะนำและสนับสนุนการเรียนรู้ของนักศึกษา โดยใช้เทคนิคการเรียนรู้ของเครื่อง (Machine Learning)</li>
+<li>ฟีเจอร์ที่ใช้ในการสร้างโมเดล AI ได้แก่ ผลการเรียน, พฤติกรรมการเรียน, และข้อมูลส่วนตัวของนักศึกษา</li>
+</ul><p><strong>ผลลัพธ์ที่ได้จนถึงตอนนี้:</strong></p><ul>
+<li>ผลการวิเคราะห์เบื้องต้นแสดงให้เห็นว่าเทคโนโลยี AI มีผลกระทบเชิงบวกต่อการเรียนรู้ของนักศึกษา</li>
+<li>นักศึกษาที่ใช้เทคโนโลยี AI มีผลการเรียนเฉลี่ยสูงกว่านักศึกษาที่ไม่ได้ใช้เทคโนโลยี AI อย่างมีนัยสำคัญทางสถิติ</li>
+<li>นักศึกษามีความสนใจและมีส่วนร่วมในบทเรียนมากขึ้นเมื่อใช้เทคโนโลยี AI</li>
+<li>เทคโนโลยี AI ช่วยให้นักศึกษาสามารถเข้าถึงและเข้าใจเนื้อหาบทเรียนได้ง่ายขึ้น</li>
+<li>อาจารย์มีความพึงพอใจกับการใช้เทคโนโลยี AI ในการจัดการเรียนการสอน เนื่องจากช่วยลดภาระงานและเพิ่มประสิทธิภาพในการสอน</li>
+</ul><p><strong>แผนการดำเนินงานในอนาคต:</strong></p><ul>
+<li><strong>การทดลองใช้โมเดล AI ในห้องเรียนจริง:</strong>
+<ul>
+<li>นำโมเดล AI ไปทดลองใช้ในห้องเรียนจริงกับนักศึกษา 50 คน ในรายวิชาที่เกี่ยวข้อง เป็นระยะเวลา 1 ภาคการศึกษา</li>
+<li>เก็บรวบรวมข้อมูลผลการเรียน, พฤติกรรมการเรียน, และความคิดเห็นของนักศึกษาและอาจารย์ในระหว่างการทดลอง</li>
+</ul>
+</li>
+<li><strong>การประเมินผลการทดลอง:</strong>
+<ul>
+<li>ใช้สถิติเชิงพรรณนาและสถิติเชิงอนุมานในการวิเคราะห์ข้อมูลที่รวบรวมได้จากการทดลอง</li>
+<li>ประเมินผลกระทบของการใช้โมเดล AI ในห้องเรียนจริง โดยเปรียบเทียบผลลัพธ์กับกลุ่มควบคุมที่ไม่ได้ใช้โมเดล AI</li>
+<li>ประเมินความพึงพอใจของนักศึกษาและอาจารย์ต่อการใช้โมเดล AI</li>
+</ul>
+</li>
+<li><strong>การปรับปรุงและพัฒนาโมเดล AI:</strong>
+<ul>
+<li>นำผลการประเมินมาใช้ในการปรับปรุงและพัฒนาโมเดล AI ให้มีประสิทธิภาพและประสิทธิผลมากยิ่งขึ้น</li>
+<li>ปรับปรุงฟีเจอร์ของโมเดล AI ให้สอดคล้องกับความต้องการและความคาดหวังของผู้ใช้</li>
+<li>พัฒนาโมเดล AI ให้สามารถรองรับการใช้งานในรายวิชาและบริบทการเรียนรู้ที่หลากหลาย</li>
+</ul>
+</li>
+</ul></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="เคล็ดลับเพิ่มเติม">เคล็ดลับเพิ่มเติม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai#%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B9%87%E0%B8%94%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1" class="hash-link" aria-label="Direct link to เคล็ดลับเพิ่มเติม" title="Direct link to เคล็ดลับเพิ่มเติม">​</a></h2>
+<ul>
+<li>ใช้ภาษาที่ชัดเจนและกระชับ</li>
+<li>หลีกเลี่ยงการใช้คำกำกวม</li>
+<li>ทดลองและปรับปรุง Prompt อย่างสม่ำเสมอ</li>
+</ul>
+<p>การฝึกฝน Prompt Engineering จะช่วยให้คุณสื่อสารกับ Generative AI ได้อย่างมีประสิทธิภาพและดึงศักยภาพของ AI ออกมาใช้ประโยชน์ได้อย่างเต็มที่</p>
+<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1516110833967-0b5716ca1387?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Prompt Engineering Tips" class="img_ev3q"></p>]]></content:encoded>
+            <category>prompt</category>
+            <category>ai</category>
+            <category>generative ai</category>
+            <category>gemini</category>
+        </item>
         <item>
             <title><![CDATA[นำข้อมูลเข้า Asana จากไฟล์ Excel ง่ายๆ]]></title>
             <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/import-excel-to-asana</link>
