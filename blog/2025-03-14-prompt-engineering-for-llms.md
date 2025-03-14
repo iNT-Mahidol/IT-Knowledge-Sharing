@@ -3,6 +3,7 @@ slug: prompt-engineering-for-generative-ai
 title: 'Prompt Engineering: เคล็ดลับสั่งงาน Generative AI ให้ได้คำตอบตรงใจ'
 authors: [patipat]
 tags: [prompt, ai, generative ai, gemini]
+description: การเรียนรู้วิธีการเขียน Prompt ที่มีประสิทธิภาพจะช่วยให้คุณสามารถสั่งงาน Generative AI ได้อย่างแม่นยำและได้ผลลัพธ์ที่ตรงตามความต้องการ บทความนี้จะนำเสนอเคล็ดลับและเทคนิคในการออกแบบ Prompt ที่ดี เพื่อให้คุณสามารถใช้งาน Generative AI ได้อย่างเต็มประสิทธิภาพ
 image: https://images.unsplash.com/photo-1712002641088-9d76f9080889?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
