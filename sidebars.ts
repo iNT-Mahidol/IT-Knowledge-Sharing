@@ -38,6 +38,11 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'msoffice/excel/formular_if',
           label: 'IF Function'
+        },
+        {
+          type: 'doc',
+          id: 'msoffice/excel/fomular_if_advanced',
+          label: 'More IF Function'
         }
       ]
     },
