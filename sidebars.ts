@@ -26,6 +26,11 @@ const sidebars: SidebarsConfig = {
       items:[
         {
           type: 'doc',
+          id: 'msoffice/excel/excel_structure',
+          label: 'Structure of Excel'
+        },
+        {
+          type: 'doc',
           id: 'msoffice/excel/flashfill',
           label: 'Flash Fill'
         },
