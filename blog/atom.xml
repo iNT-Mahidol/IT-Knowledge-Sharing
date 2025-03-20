@@ -2,11 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</id>
     <title>iNT IT Knowledge Sharing Blog</title>
-    <updated>2025-03-14T00:00:00.000Z</updated>
+    <updated>2025-03-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog"/>
     <subtitle>iNT IT Knowledge Sharing Blog</subtitle>
     <icon>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[บอกลาความยุ่งยาก! สร้าง Diagram ง่ายๆ แก้ไขได้ไม่จำกัด ด้วย Miro (สำหรับชาวบุคลากรมหาวิทยาลัยมหิดล)]]></title>
+        <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol</id>
+        <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol"/>
+        <updated>2025-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[เครื่องมือสร้าง Diagram ที่ใช้งานง่าย พร้อมฟีเจอร์การทำงานร่วมกันแบบเรียลไทม์ เหมาะสำหรับนักศึกษาและบุคลากร มหาวิทยาลัยมหิดล ที่ต้องการเพิ่มประสิทธิภาพการทำงาน]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Issue" class="img_ev3q">
+คุณเคยประสบปัญหาเหล่านี้หรือไม่?</p>
+<ul>
+<li>วาด Diagram บนกระดาษแล้วต้องมานั่งแก้ใหม่ทั้งหมดเมื่อมีการเปลี่ยนแปลง</li>
+<li>ส่งไฟล์ Diagram ให้เพื่อนร่วมงานแก้ไข แต่ไม่รู้ว่าใครแก้ไขอะไรไปบ้าง</li>
+<li>อยากได้เครื่องมือที่ช่วยให้สร้าง Diagram ได้หลากหลายรูปแบบ แต่หาเท่าไหร่ก็ไม่เจอ</li>
+</ul>
+<p>ถ้าคำตอบคือ "ใช่" บทความนี้มีคำตอบสำหรับคุณ!</p>
+<p>ขอแนะนำ Miro เครื่องมือทำงานร่วมกันแบบ Visual ที่จะช่วยให้การสร้าง Diagram ของคุณเป็นเรื่องง่ายและสนุกยิ่งขึ้น! และที่สำคัญ สำหรับชาว @mahidol.edu สามารถใช้งาน Miro ได้ฟรีๆ พร้อมสิทธิพิเศษมากมาย!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="miro-คืออะไร">Miro คืออะไร?<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#miro-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3" class="hash-link" aria-label="Direct link to Miro คืออะไร?" title="Direct link to Miro คืออะไร?">​</a></h2>
+<p>Miro คือแพลตฟอร์มทำงานร่วมกันแบบ Visual ที่ช่วยให้คุณและทีมสามารถระดมความคิด สร้าง Diagram วางแผนโครงการ และอื่นๆ อีกมากมาย บน Whiteboard ออนไลน์ที่ไม่จำกัด
+<img decoding="async" loading="lazy" src="https://images.ctfassets.net/w6r2i5d8q73s/4zPT7YclGcvSsOvIKXOmby/d2b2fdd635b16ff8a6971375f359fb13/about-miro_01_leading-visual-collaboration-platform_product-image_EN_1120x660.png" alt="Miro_Intro" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ทำไมต้อง-miro-สำหรับชาวบุคลากรมหาวิทยาลัยมหิดล">ทำไมต้อง Miro? (สำหรับชาวบุคลากรมหาวิทยาลัยมหิดล)<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87-miro-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5" class="hash-link" aria-label="Direct link to ทำไมต้อง Miro? (สำหรับชาวบุคลากรมหาวิทยาลัยมหิดล)" title="Direct link to ทำไมต้อง Miro? (สำหรับชาวบุคลากรมหาวิทยาลัยมหิดล)">​</a></h2>
+<ul>
+<li><strong>ใช้งานฟรี!</strong> ด้วยสิทธิ์ Education เพียงลงทะเบียนด้วยอีเมล @mahidol.edu</li>
+<li><strong>สร้างและแก้ไขได้ถึง 100 Board ต่อผู้ใช้</strong> ไม่ต้องกังวลเรื่องพื้นที่ไม่พอ</li>
+<li><strong>แชร์ให้เพื่อนร่วมงานได้ไม่จำกัด</strong> ทำงานร่วมกันได้อย่างราบรื่น</li>
+<li><strong>มี Diagram ให้เลือกหลากหลาย</strong> พร้อมอัปเดตเทมเพลตใหม่ๆ อยู่เสมอ</li>
+<li><strong>อัปเดตข่าวสารและแนวคิดการใช้งาน Miro</strong> จากผู้ใช้ทั่วโลก
+<img decoding="async" loading="lazy" src="https://framerusercontent.com/images/bzRVMrt8Br4fk3FKa3gwYIYPwA.png" alt="Diagramming" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="เริ่มต้นใช้งาน-miro-ง่ายๆ-ใน-3-ขั้นตอน">เริ่มต้นใช้งาน Miro ง่ายๆ ใน 3 ขั้นตอน:<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-miro-%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86-%E0%B9%83%E0%B8%99-3-%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99" class="hash-link" aria-label="Direct link to เริ่มต้นใช้งาน Miro ง่ายๆ ใน 3 ขั้นตอน:" title="Direct link to เริ่มต้นใช้งาน Miro ง่ายๆ ใน 3 ขั้นตอน:">​</a></h2>
+<ol>
+<li><strong>สมัครใช้งานด้วยอีเมล @mahidol.edu</strong> เข้าไปที่เว็บไซต์ <a href="https://miro.com/" target="_blank" rel="noopener noreferrer">Miro</a> และลงทะเบียนด้วยอีเมล @mahidol.edu ของคุณ</li>
+<li><strong>กรอกแบบฟอร์มขอสิทธิ์ Education</strong> กรอกแบบฟอร์มที่ <a href="https://miro.com/contact/education/?ref=Educator" target="_blank" rel="noopener noreferrer">https://miro.com/contact/education/?ref=Educator</a> ระบุอีเมล @mahidol.edu เพื่อยืนยันสิทธิ์การใช้งาน</li>
+<li><strong>รออนุมัติและเริ่มใช้งานได้ทันที!</strong> (ระหว่างรออนุมัติ สามารถสร้าง/แก้ไขได้สูงสุด 3 Board)
+<img decoding="async" loading="lazy" alt="How_to_verify" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/4-392c9c7476295c74c7b3661c10d46e49.jpg" width="1920" height="1080" class="img_ev3q"></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="เคล็ดลับการใช้งาน-miro">เคล็ดลับการใช้งาน Miro:<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B9%87%E0%B8%94%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-miro" class="hash-link" aria-label="Direct link to เคล็ดลับการใช้งาน Miro:" title="Direct link to เคล็ดลับการใช้งาน Miro:">​</a></h2>
+<ul>
+<li>ใช้เทมเพลตที่มีให้เลือกมากมาย เพื่อประหยัดเวลาในการสร้าง Diagram</li>
+<li>ทำงานร่วมกันแบบเรียลไทม์กับเพื่อนร่วมงาน โดยการแชร์ Board ให้พวกเขา</li>
+<li>ใช้ Sticky Notes เพื่อระดมความคิดและจดบันทึก</li>
+<li>ทดลองใช้ฟีเจอร์ต่างๆ ของ Miro เพื่อค้นหาเครื่องมือที่เหมาะกับการใช้งานของคุณ
+<img decoding="async" loading="lazy" src="https://images.ctfassets.net/w6r2i5d8q73s/2dj8V7M4KqXJKTdNrjtpmG/82ca78458e60cf6f97034b4abd6f74d4/process-mapping_product-image_02_EN_standard_3_2.png?fm=webp&amp;q=75" alt="Trick" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทสรุป">บทสรุป:<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#%E0%B8%9A%E0%B8%97%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to บทสรุป:" title="Direct link to บทสรุป:">​</a></h2>
+<p>Miro เป็นเครื่องมือที่ยอดเยี่ยมสำหรับทุกคนที่ต้องการสร้าง Diagram อย่างง่ายดายและมีประสิทธิภาพ ด้วยสิทธิพิเศษสำหรับชาว @mahidol.edu ทำให้ Miro เป็นตัวเลือกที่ไม่ควรพลาด!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-to-action">Call to Action:<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miro-for-mahidol#call-to-action" class="hash-link" aria-label="Direct link to Call to Action:" title="Direct link to Call to Action:">​</a></h2>
+<ul>
+<li>ลงทะเบียนใช้งาน Miro ฟรี! <a href="https://miro.com/signup/" target="_blank" rel="noopener noreferrer">https://miro.com/signup/</a></li>
+<li>เรียนรู้เพิ่มเติมเกี่ยวกับ Miro <a href="https://miro.com/diagramming/" target="_blank" rel="noopener noreferrer">https://miro.com/diagramming/</a></li>
+<li>แบ่งปันบทความนี้ให้เพื่อนร่วมงานของคุณ!</li>
+</ul>]]></content>
+        <author>
+            <name>Patipat Chewprecha (หม่อน)</name>
+            <uri>https://github.com/pcbimon</uri>
+        </author>
+        <category label="miro" term="miro"/>
+        <category label="diagram" term="diagram"/>
+        <category label="flowchart" term="flowchart"/>
+        <category label="mahidol" term="mahidol"/>
+        <category label="education" term="education"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Prompt Engineering: เคล็ดลับสั่งงาน Generative AI ให้ได้คำตอบตรงใจ]]></title>
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/prompt-engineering-for-generative-ai</id>
