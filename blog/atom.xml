@@ -2,11 +2,143 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</id>
     <title>iNT IT Knowledge Sharing Blog</title>
-    <updated>2025-03-28T00:00:00.000Z</updated>
+    <updated>2025-04-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog"/>
     <subtitle>iNT IT Knowledge Sharing Blog</subtitle>
     <icon>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ใช้ Asana ติดตามงานแบบ Agile ด้วย Scrum ให้เวิร์กสุดๆ]]></title>
+        <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking</id>
+        <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking"/>
+        <updated>2025-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[แนะนำหลักการ Agile และ Scrum พร้อมตัวอย่างการประยุกต์ใช้ Asana เพื่อติดตามงานในทีมให้มีประสิทธิภาพ สอดคล้องกับการรายงานผลรายเดือน]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?q=80&amp;w=2069&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="project-management" class="img_ev3q">
+ในยุคที่การทำงานต้องการความรวดเร็วและการปรับตัวอยู่ตลอดเวลา แนวคิดการทำงานแบบ Agile ได้รับความนิยมอย่างสูง เพราะช่วยให้ทีมสามารถส่งมอบงานที่มีคุณภาพได้อย่างต่อเนื่อง และตอบสนองต่อการเปลี่ยนแปลงได้ทันท่วงที หนึ่งใน Framework ที่นิยมใช้กันอย่างแพร่หลายภายใต้ Agile ก็คือ Scrum ซึ่งเน้นการทำงานเป็นรอบสั้นๆ ที่เรียกว่า Sprint</p>
+<p>เมื่อนำเครื่องมืออย่าง Asana เข้ามาช่วยจัดการ ยิ่งทำให้การติดตามงานตามแนวทาง Agile และ Scrum มีประสิทธิภาพมากขึ้นไปอีก ในบทความนี้ เราจะมาดูกันว่าหลักการของ Agile และ Scrum คืออะไร และจะประยุกต์ใช้ Asana กับการทำงานจริงได้อย่างไรบ้าง</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="agile-คืออะไร-ทำไมถึงสำคัญ">Agile คืออะไร? ทำไมถึงสำคัญ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking#agile-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D" class="hash-link" aria-label="Direct link to Agile คืออะไร? ทำไมถึงสำคัญ" title="Direct link to Agile คืออะไร? ทำไมถึงสำคัญ">​</a></h2>
+<p>Agile ไม่ใช่กฎตายตัว แต่เป็น <strong>แนวคิด (Mindset)</strong> หรือ <strong>ปรัชญา</strong> ในการทำงานที่เน้นความยืดหยุ่น การทำงานร่วมกัน และการปรับปรุงอย่างต่อเนื่อง หัวใจสำคัญของ Agile คือการให้ความสำคัญกับ:</p>
+<ul>
+<li><strong>คนและการมีปฏิสัมพันธ์กัน</strong> มากกว่า กระบวนการและเครื่องมือ</li>
+<li><strong>ซอฟต์แวร์ที่ใช้งานได้จริง</strong> มากกว่า เอกสารที่ครบถ้วนสมบูรณ์</li>
+<li><strong>การร่วมมือกับลูกค้า</strong> มากกว่า การต่อรองสัญญา</li>
+<li><strong>การตอบรับกับการเปลี่ยนแปลง</strong> มากกว่า การทำตามแผนที่วางไว้</li>
+</ul>
+<p>(อ้างอิงจาก <a href="https://agilemanifesto.org/" target="_blank" rel="noopener noreferrer">Agile Manifesto</a>)</p>
+<p>การนำ Agile มาใช้ช่วยให้ทีม:</p>
+<ul>
+<li><strong>ส่งมอบงานได้เร็วขึ้น:</strong> แบ่งงานใหญ่เป็นส่วนย่อยๆ และส่งมอบทีละส่วน</li>
+<li><strong>ปรับตัวได้ดี:</strong> พร้อมรับมือกับการเปลี่ยนแปลงความต้องการหรือสถานการณ์ที่ไม่คาดฝัน</li>
+<li><strong>คุณภาพงานดีขึ้น:</strong> มีการทดสอบและรับฟีดแบ็กอย่างสม่ำเสมอ</li>
+<li><strong>ทีมทำงานร่วมกันได้ดีขึ้น:</strong> เน้นการสื่อสารและการทำงานเป็นทีม</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://assets.asana.biz/transform/f3519623-44e4-4506-8e1f-38cb74819c58/inline-agile-agile-methodology-1-2x?io=transform:fill,width:2560&amp;format=webp" alt="Agile" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ทำความรู้จักกับ-scrum-framework">ทำความรู้จักกับ Scrum Framework<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking#%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-scrum-framework" class="hash-link" aria-label="Direct link to ทำความรู้จักกับ Scrum Framework" title="Direct link to ทำความรู้จักกับ Scrum Framework">​</a></h2>
+<p>Scrum เป็น Framework ที่ช่วยให้ทีมนำหลักการ Agile ไปปฏิบัติได้อย่างเป็นรูปธรรม ประกอบด้วยองค์ประกอบหลักๆ ดังนี้:</p>
+<ol>
+<li>
+<p><strong>บทบาท (Roles):</strong></p>
+<ul>
+<li><strong>ผู้กำหนดเป้าหมาย (Goal Setter):</strong> บุคคลที่รับผิดชอบในการกำหนดเป้าหมายและลำดับความสำคัญของงาน เพื่อให้ทีมสามารถสร้างผลลัพธ์ที่มีคุณค่าสูงสุด</li>
+<li><strong>ผู้ประสานงาน (Facilitator):</strong> ผู้ช่วยให้ทีมทำงานได้อย่างราบรื่น โดยช่วยแก้ไขปัญหาและขจัดอุปสรรคที่อาจเกิดขึ้น</li>
+<li><strong>ทีมปฏิบัติงาน (Working Team):</strong> กลุ่มคนที่ลงมือทำงานจริง เพื่อสร้างผลลัพธ์ที่จับต้องได้ในแต่ละรอบการทำงาน</li>
+</ul>
+</li>
+<li>
+<p><strong>กิจกรรม (Events):</strong></p>
+<ul>
+<li><strong>รอบการทำงาน (Work Cycle):</strong> ช่วงเวลาสั้นๆ (ปกติ 1-4 สัปดาห์) ที่ทีมจะสร้างผลลัพธ์ที่ "เสร็จสมบูรณ์" และ "นำไปใช้ได้"</li>
+<li><strong>การวางแผนรอบการทำงาน (Cycle Planning):</strong> การประชุมเพื่อวางแผนงานที่จะทำในรอบการทำงานนั้นๆ และกำหนดวิธีการดำเนินงาน</li>
+<li><strong>การอัปเดตประจำวัน (Daily Update):</strong> การประชุมสั้นๆ ทุกวัน (ไม่เกิน 15 นาที) เพื่ออัปเดตความคืบหน้า ปัญหา และแผนงานของแต่ละคน</li>
+<li><strong>การนำเสนอผลลัพธ์ (Review):</strong> การประชุมเมื่อสิ้นสุดรอบการทำงาน เพื่อนำเสนอผลงานที่เสร็จสมบูรณ์ และรับความคิดเห็นจากผู้ที่เกี่ยวข้อง</li>
+<li><strong>การทบทวนและปรับปรุง (Retrospective):</strong> การประชุมภายในทีมหลังการนำเสนอผลลัพธ์ เพื่อทบทวนการทำงานที่ผ่านมา และหาแนวทางปรับปรุงในรอบถัดไป</li>
+</ul>
+</li>
+<li>
+<p><strong>สิ่งส่งมอบ (Deliverables):</strong></p>
+<ul>
+<li><strong>รายการงาน (Task List):</strong> รายการงานทั้งหมดที่ต้องทำ จัดลำดับความสำคัญโดยผู้กำหนดเป้าหมาย</li>
+<li><strong>แผนงานรอบการทำงาน (Cycle Task Plan):</strong> รายการงานที่เลือกมาจาก Task List เพื่อทำให้เสร็จในรอบการทำงานปัจจุบัน พร้อมแผนการดำเนินงาน</li>
+<li><strong>ผลลัพธ์ (Outcome):</strong> ผลรวมของงานทั้งหมดที่ทำเสร็จในรอบการทำงาน ซึ่งต้องอยู่ในสภาพที่ "นำไปใช้ได้"</li>
+</ul>
+</li>
+</ol>
+<p>(อ้างอิงจาก <a href="https://scrumguides.org/" target="_blank" rel="noopener noreferrer">Scrum Guide</a>)
+<img decoding="async" loading="lazy" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="Scrum Framework" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ประยุกต์ใช้-asana-กับ-scrum-สำหรับการติดตามงาน-sprint-1-เดือน">ประยุกต์ใช้ Asana กับ Scrum สำหรับการติดตามงาน (Sprint 1 เดือน)<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking#%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B8%E0%B8%81%E0%B8%95%E0%B9%8C%E0%B9%83%E0%B8%8A%E0%B9%89-asana-%E0%B8%81%E0%B8%B1%E0%B8%9A-scrum-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%87%E0%B8%B2%E0%B8%99-sprint-1-%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B8%AD%E0%B8%99" class="hash-link" aria-label="Direct link to ประยุกต์ใช้ Asana กับ Scrum สำหรับการติดตามงาน (Sprint 1 เดือน)" title="Direct link to ประยุกต์ใช้ Asana กับ Scrum สำหรับการติดตามงาน (Sprint 1 เดือน)">​</a></h2>
+<p>Asana เป็นเครื่องมือที่ยืดหยุ่นและปรับแต่งได้หลากหลาย ทำให้เหมาะกับการนำมาใช้จัดการงานแบบ Scrum ตามที่คุณได้ออกแบบไว้ คือ มี Project สำหรับ Backlog และ Project แยกสำหรับแต่ละ Sprint (ระยะเวลา 1 เดือน)</p>
+<p><strong>โครงสร้าง Project ใน Asana:</strong></p>
+<ol>
+<li>
+<p><strong>Project: Product Backlog (ทีม X)</strong></p>
+<ul>
+<li><strong>วัตถุประสงค์:</strong> ใช้เป็นที่รวบรวมงาน (Tasks), ไอเดีย, ฟีเจอร์, หรือ User Stories ทั้งหมดที่เกี่ยวกับ Product หรือโครงการนั้นๆ</li>
+<li><strong>การจัดการ:</strong>
+<ul>
+<li>สร้าง Task สำหรับแต่ละรายการใน Backlog</li>
+<li>ใส่รายละเอียดที่จำเป็น เช่น คำอธิบาย, ผู้รับผิดชอบ (ถ้ามี), ระดับความสำคัญ (อาจใช้ Custom Fields)</li>
+<li>จัดลำดับความสำคัญ Task ในมุมมอง List หรือ Board ตามที่ PO กำหนด</li>
+<li>อาจแบ่ง Section ตามประเภทงาน หรือ Epic ใหญ่ๆ ได้</li>
+</ul>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://assets.asana.biz/transform/b1b8f31d-2451-4ca8-a25c-e8b014621968/inline-project-management-product-backlog-1-2x?io=transform:fill,width:2560&amp;format=webp" alt="Image of Asana Product Backlog - List View with Sections for Epics" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>Project: Sprint [เดือน/ปี] (เช่น Sprint April 2025)</strong></p>
+<ul>
+<li><strong>วัตถุประสงค์:</strong> ใช้ติดตามงานที่ทีมเลือกมาทำใน Sprint ปัจจุบัน (ระยะเวลา 1 เดือน)</li>
+<li><strong>การจัดการ:</strong>
+<ul>
+<li><strong>ช่วง Sprint Planning:</strong> ทีมและ PO เลือก Task จาก "Project: Product Backlog" ที่จะทำใน Sprint นี้ แล้ว <strong>ย้าย (Move)</strong> Task เหล่านั้นมายัง Project Sprint ปัจจุบัน (หรือจะสร้าง Task ใหม่/ทำสำเนาก็ได้ แต่การย้ายจะช่วยรักษาประวัติ)</li>
+<li><strong>ตั้งค่า Board View:</strong> สร้างคอลัมน์ (Sections) เพื่อแสดงสถานะของงาน เช่น:<!-- -->
+<ul>
+<li><strong>To Do / Sprint Backlog:</strong> งานที่เลือกมาทำใน Sprint นี้</li>
+<li><strong>In Progress:</strong> งานที่กำลังทำอยู่</li>
+<li><strong>In Review / Testing:</strong> งานที่รอตรวจสอบ หรือทดสอบ</li>
+<li><strong>Done:</strong> งานที่เสร็จสมบูรณ์ตาม Definition of Done</li>
+</ul>
+</li>
+<li><strong>Assign Task:</strong> มอบหมาย Task ให้สมาชิกในทีม</li>
+<li><strong>Set Due Dates:</strong> กำหนดวันส่งงานสำหรับแต่ละ Task (อาจจะเป็นวันสุดท้ายของ Sprint หรือเร็วกว่านั้น)</li>
+<li><strong>Daily Scrum:</strong> ทีมใช้ Board นี้ในการอัปเดตสถานะงานประจำวัน เลื่อน Task ไปตามคอลัมน์สถานะ</li>
+<li><strong>ติดตามความคืบหน้า:</strong> ใช้ Dashboard หรือมุมมองต่างๆ ใน Asana เพื่อดูภาพรวมความคืบหน้าของ Sprint</li>
+<li><strong>Sprint Review/Retrospective:</strong> ใช้ข้อมูลจาก Project นี้ในการนำเสนอผลงานและทบทวนการทำงาน
+<img decoding="async" loading="lazy" src="https://assets.asana.biz/m/43b0b41b8c50e7bf/original/animatedui-helpcenter-product_and_engineering-sprint-planning-003-en-us-gif.gif" alt="Current Sprint" class="img_ev3q"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>ทำไมต้อง Sprint 1 เดือน?</strong></p>
+<p>การกำหนด Sprint 1 เดือนตามที่คุณใช้อยู่นั้น มีข้อดีคือสอดคล้องกับรอบการรายงานผลต่อผู้บริหาร ทำให้ง่ายต่อการสรุปผลงานและความคืบหน้าในแต่ละเดือน อย่างไรก็ตาม ควรพิจารณาว่าระยะเวลา 1 เดือนเหมาะสมกับจังหวะการทำงานและการปรับตัวของทีมหรือไม่ หากพบว่านานเกินไป อาจลองปรับลดลงเหลือ 2-3 สัปดาห์ในอนาคต เพื่อให้ได้รับฟีดแบ็กและปรับปรุงได้เร็วขึ้น</p>
+<p><strong>เคล็ดลับเพิ่มเติม:</strong></p>
+<ul>
+<li><strong>Custom Fields:</strong> สร้าง Custom Fields ใน Asana เพื่อเก็บข้อมูลเพิ่มเติม เช่น Priority, Story Points, Epic, หรือสถานะเฉพาะของทีม</li>
+<li><strong>Tags:</strong> ใช้ Tags เพื่อจัดกลุ่ม Task ที่เกี่ยวข้องกันข้าม Project ได้</li>
+<li><strong>Dependencies:</strong> กำหนด Task Dependencies เพื่อแสดงว่างานไหนต้องเสร็จก่อนงานไหน</li>
+<li><strong>Automations (Rules):</strong> ตั้งค่า Automation เพื่อลดงานซ้ำๆ เช่น การย้าย Task อัตโนมัติเมื่อเปลี่ยนสถานะ หรือการแจ้งเตือนเมื่อ Task ใกล้ถึงกำหนดส่ง</li>
+<li><strong>Communication:</strong> ใช้ Comment ใน Task เพื่อสื่อสารและอัปเดตข้อมูลเกี่ยวกับงานนั้นๆ ลดการใช้ช่องทางสื่อสารอื่นที่ไม่จำเป็น</li>
+</ul>
+<p><a href="https://help.asana.com/s/article/sprint-planning?language=en_US" target="_blank" rel="noopener noreferrer">https://help.asana.com/s/article/sprint-planning?language=en_US</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="สรุป">สรุป<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to สรุป" title="Direct link to สรุป">​</a></h2>
+<p>การนำ Agile และ Scrum มาปรับใช้กับการทำงาน ช่วยให้ทีมมีความคล่องตัว ส่งมอบงานได้มีคุณภาพ และปรับตัวกับการเปลี่ยนแปลงได้ดี การใช้เครื่องมืออย่าง Asana เข้ามาช่วยจัดการ ทำให้การติดตามงานตามแนวทางนี้เป็นระบบและมีประสิทธิภาพยิ่งขึ้น การตั้งค่า Project Backlog และ Project Sprint แยกกันตามตัวอย่าง พร้อมกับการใช้ Board View และฟีเจอร์อื่นๆ ของ Asana จะช่วยให้ทีมของคุณทำงานร่วมกันได้อย่างราบรื่น และบรรลุเป้าหมายในแต่ละ Sprint ได้อย่างแน่นอน</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="แหล่งอ้างอิง">แหล่งอ้างอิง<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking#%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%87%E0%B8%AD%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%B4%E0%B8%87" class="hash-link" aria-label="Direct link to แหล่งอ้างอิง" title="Direct link to แหล่งอ้างอิง">​</a></h2>
+<ul>
+<li><strong>Agile Manifesto:</strong> <a href="https://agilemanifesto.org/" target="_blank" rel="noopener noreferrer">https://agilemanifesto.org/</a></li>
+<li><strong>Scrum Guide:</strong> <a href="https://scrumguides.org/" target="_blank" rel="noopener noreferrer">https://scrumguides.org/</a></li>
+<li><strong>Asana Guide:</strong> <a href="https://asana.com/guide" target="_blank" rel="noopener noreferrer">https://asana.com/guide</a></li>
+</ul>]]></content>
+        <author>
+            <name>Patipat Chewprecha (หม่อน)</name>
+            <uri>https://github.com/pcbimon</uri>
+        </author>
+        <category label="asana" term="asana"/>
+        <category label="agile" term="agile"/>
+        <category label="scrum" term="scrum"/>
+        <category label="project management" term="project management"/>
+        <category label="productivity" term="productivity"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[สรุปข้อมูลรายได้โครงการง่ายๆ ด้วย Power Query ใน Excel]]></title>
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/power-query-data-summary</id>
