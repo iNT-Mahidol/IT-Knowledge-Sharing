@@ -31,9 +31,9 @@ const config: Config = {
   // },
   plugins: [
     ['./src/plugins/tailwind-config.js', {}],
-    [
-      "docusaurus-plugin-umami",{}
-    ],
+    ...(process.env.NODE_ENV === 'production'
+      ? [["docusaurus-plugin-umami", {}]]
+      : []),
   ],
   presets: [
     [
@@ -73,6 +73,12 @@ const config: Config = {
           position: 'left',
           label: 'Microsoft Office',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'eoffice',
+          position: 'left',
+          label: 'E-Office',
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
         // {
         //   type: 'localeDropdown',
@@ -89,6 +95,10 @@ const config: Config = {
             {
               label: 'Microsoft Office',
               to: '/docs/msoffice/introduction',
+            },
+            {
+              label: 'E-Office',
+              to: '/docs/eoffice/introduction',
             },
           ],
         },

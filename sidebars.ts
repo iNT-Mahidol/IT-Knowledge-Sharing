@@ -63,6 +63,13 @@ const sidebars: SidebarsConfig = {
       ]
     },
   ],
+  eoffice: [
+    {
+      type: 'doc',
+      id: 'eoffice/introduction',
+      label: 'Introduction'
+    },
+  ],
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
