@@ -2,11 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</id>
     <title>iNT IT Knowledge Sharing Blog</title>
-    <updated>2025-04-05T00:00:00.000Z</updated>
+    <updated>2025-04-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog"/>
     <subtitle>iNT IT Knowledge Sharing Blog</subtitle>
     <icon>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[เตรียมพร้อมสู่ยุคดิจิทัล! ยืนยันตัวตนง่ายๆ ด้วย ThaID สำหรับระบบงานเอกสารอิเล็กทรอนิกส์]]></title>
+        <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents</id>
+        <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents"/>
+        <updated>2025-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[แนะนำแอปพลิเคชัน ThaID และวิธีการติดตั้ง เพื่อเตรียมความพร้อมบุคลากรสำหรับระบบงานเอกสารอิเล็กทรอนิกส์]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ก้าวสู่ยุค-paperless-เตรียมพร้อมใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ด้วย-thaid">ก้าวสู่ยุค Paperless! เตรียมพร้อมใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ด้วย ThaID<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%A2%E0%B8%B8%E0%B8%84-paperless-%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-thaid" class="hash-link" aria-label="Direct link to ก้าวสู่ยุค Paperless! เตรียมพร้อมใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ด้วย ThaID" title="Direct link to ก้าวสู่ยุค Paperless! เตรียมพร้อมใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ด้วย ThaID">​</a></h2>
+<p>สวัสดีครับ/ค่ะ บุคลากรทุกท่าน</p>
+<p>มหาวิทยาลัยจะเข้าสู่ยุคดิจิทัลอย่างเต็มตัว โดยจะมีการนำระบบงานเอกสารอิเล็กทรอนิกส์มาใช้ในเร็วๆ นี้ เพื่อเพิ่มประสิทธิภาพและความสะดวกในการดำเนินงาน ซึ่งแอปพลิเคชัน ThaID จะเป็นเครื่องมือสำคัญในการยืนยันตัวตนทางดิจิทัลสำหรับระบบนี้</p>
+<p>บทความนี้จะแนะนำให้ทุกท่านรู้จัก ThaID พร้อมวิธีการติดตั้งและใช้งาน เพื่อให้ทุกท่านเตรียมพร้อมสำหรับการเปลี่ยนแปลงนี้
+<img decoding="async" loading="lazy" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/25/f4/cf25f46a-610b-1024-6cb5-2ba6477ca0ea/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/1200x630wa.png" alt="ThaID" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thaid-คืออะไร">ThaID คืออะไร?<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#thaid-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3" class="hash-link" aria-label="Direct link to ThaID คืออะไร?" title="Direct link to ThaID คืออะไร?">​</a></h2>
+<p>ThaID คือแอปพลิเคชันที่พัฒนาโดยกรมการปกครอง กระทรวงมหาดไทย [อ้างอิงจาก: <a href="https://www.bora.dopa.go.th/app-thaid/" target="_blank" rel="noopener noreferrer">https://www.bora.dopa.go.th/app-thaid/</a>] เพื่อใช้ในการพิสูจน์และยืนยันตัวตนทางดิจิทัลบนโทรศัพท์มือถือ ทำให้การทำธุรกรรมออนไลน์ต่างๆ มีความปลอดภัยและสะดวกมากยิ่งขึ้น</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ทำไมต้องใช้-thaid-ในระบบงานเอกสารอิเล็กทรอนิกส์-มมหิดล">ทำไมต้องใช้ ThaID ในระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล?<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89-thaid-%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C-%E0%B8%A1%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5" class="hash-link" aria-label="Direct link to ทำไมต้องใช้ ThaID ในระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล?" title="Direct link to ทำไมต้องใช้ ThaID ในระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล?">​</a></h2>
+<ul>
+<li><strong>ความปลอดภัยสูง:</strong> ThaID มีระบบรักษาความปลอดภัยที่เชื่อถือได้ ช่วยป้องกันการปลอมแปลงตัวตนและรักษาความลับของข้อมูล</li>
+<li><strong>สะดวก รวดเร็ว:</strong> ยืนยันตัวตนได้ทุกที่ทุกเวลา ผ่านโทรศัพท์มือถือ ไม่ต้องเสียเวลาในการยื่นเอกสารตัวจริง</li>
+<li><strong>ลดขั้นตอนการทำงาน:</strong> ช่วยลดขั้นตอนในการจัดการเอกสาร ลดการใช้กระดาษ และเพิ่มประสิทธิภาพในการทำงาน</li>
+<li><strong>สนับสนุนนโยบายดิจิทัลของมหาวิทยาลัย:</strong> เป็นส่วนหนึ่งในการขับเคลื่อนมหาวิทยาลัยสู่การเป็นองค์กรดิจิทัล</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="วิธีการติดตั้งและลงทะเบียน-thaid">วิธีการติดตั้งและลงทะเบียน ThaID<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99-thaid" class="hash-link" aria-label="Direct link to วิธีการติดตั้งและลงทะเบียน ThaID" title="Direct link to วิธีการติดตั้งและลงทะเบียน ThaID">​</a></h2>
+<p><strong>1. ดาวน์โหลดแอปพลิเคชัน</strong></p>
+<a href="https://play.google.com/store/apps/details?id=th.go.dopa.bora.dims.ddopa&amp;hl=th&amp;gl=US" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="ดาวน์โหลดจาก Google Play" width="200"></a>
+<a href="https://apps.apple.com/th/app/d-dopa/id1533612248" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="ดาวน์โหลดจาก Apple Store" width="200"></a>
+<p><strong>2. ลงทะเบียนด้วยตนเอง (Self-Registration)</strong></p>
+<ul>
+<li>เปิดแอปพลิเคชัน ThaID</li>
+<li>เลือก "ลงทะเบียนด้วยตนเอง"</li>
+<li>ยอมรับข้อกำหนดและเงื่อนไข</li>
+<li>ถ่ายรูปบัตรประชาชนด้านหน้า</li>
+<li>ตรวจสอบความถูกต้องของข้อมูล</li>
+<li>ถ่ายรูปใบหน้า (Selfie) เพื่อยืนยันตัวตน</li>
+<li>ตั้งรหัสผ่านสำหรับแอปพลิเคชัน</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://www.bora.dopa.go.th/wp-content/uploads/2023/03/ThaID_info_1.png" alt="Thaid Self Register" class="img_ev3q"></p>
+<p><strong>3. ลงทะเบียน ณ สำนักทะเบียน</strong></p>
+<ul>
+<li>หากไม่สะดวกในการลงทะเบียนด้วยตนเอง สามารถนำบัตรประชาชนตัวจริงไปลงทะเบียนได้ที่สำนักทะเบียนอำเภอหรือสำนักทะเบียนท้องถิ่นทั่วประเทศ</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://www.bora.dopa.go.th/wp-content/uploads/2023/03/ThaID_info_2.png" alt="Thaid Operator Register" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ข้อมูลเกี่ยวกับระบบงานเอกสารอิเล็กทรอนิกส์-มมหิดล">ข้อมูลเกี่ยวกับระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C-%E0%B8%A1%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5" class="hash-link" aria-label="Direct link to ข้อมูลเกี่ยวกับระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล" title="Direct link to ข้อมูลเกี่ยวกับระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล">​</a></h2>
+<p>ระบบงานเอกสารอิเล็กทรอนิกส์ของมหาวิทยาลัยมหิดล [อ้างอิงจาก: <a href="https://muit.mahidol.ac.th/docs/users-guide/manual-mu-administration/e-document/" target="_blank" rel="noopener noreferrer">https://muit.mahidol.ac.th/docs/users-guide/manual-mu-administration/e-document/</a>] จะช่วยให้บุคลากรสามารถ:</p>
+<ul>
+<li>สร้าง ส่ง และรับเอกสารอิเล็กทรอนิกส์ได้อย่างรวดเร็ว</li>
+<li>ติดตามสถานะของเอกสารได้อย่างแม่นยำ</li>
+<li>ลดการใช้กระดาษและประหยัดพื้นที่ในการจัดเก็บเอกสาร</li>
+<li>เพิ่มความปลอดภัยในการจัดการเอกสาร</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="สรุป">สรุป<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to สรุป" title="Direct link to สรุป">​</a></h2>
+<p>ThaID เป็นเครื่องมือสำคัญที่จะช่วยให้การใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ของมหาวิทยาลัยมหิดลเป็นไปอย่างราบรื่น ขอเชิญชวนบุคลากรทุกท่านติดตั้งและลงทะเบียน ThaID เพื่อเตรียมพร้อมสู่ยุคดิจิทัลและร่วมกันพัฒนาประสิทธิภาพในการทำงานของมหาวิทยาลัย</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ข้อมูลเพิ่มเติม">ข้อมูลเพิ่มเติม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents#%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1" class="hash-link" aria-label="Direct link to ข้อมูลเพิ่มเติม" title="Direct link to ข้อมูลเพิ่มเติม">​</a></h2>
+<ul>
+<li>เว็บไซต์กรมการปกครอง: <a href="https://www.bora.dopa.go.th/app-thaid/" target="_blank" rel="noopener noreferrer">https://www.bora.dopa.go.th/app-thaid/</a></li>
+<li>คู่มือการใช้งานระบบงานเอกสารอิเล็กทรอนิกส์ ม.มหิดล: <a href="https://muit.mahidol.ac.th/docs/users-guide/manual-mu-administration/e-document/" target="_blank" rel="noopener noreferrer">https://muit.mahidol.ac.th/docs/users-guide/manual-mu-administration/e-document/</a></li>
+</ul>]]></content>
+        <author>
+            <name>Patipat Chewprecha (หม่อน)</name>
+            <uri>https://github.com/pcbimon</uri>
+        </author>
+        <category label="ThaID" term="ThaID"/>
+        <category label="Digital ID" term="Digital ID"/>
+        <category label="Electronic Documents" term="Electronic Documents"/>
+        <category label="Digital Transformation" term="Digital Transformation"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ใช้ Asana ติดตามงานแบบ Agile ด้วย Scrum ให้เวิร์กสุดๆ]]></title>
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/use-asana-agile-scrum-tracking</id>
