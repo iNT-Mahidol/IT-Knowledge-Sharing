@@ -69,6 +69,22 @@ const sidebars: SidebarsConfig = {
       id: 'eoffice/introduction',
       label: 'Introduction'
     },
+    {
+      type: 'category',
+      label: 'เข้าใช้งาน e-Document',
+      items: [
+        {
+          type: 'doc',
+          id: 'eoffice/authentication/login',
+          label: 'Login'
+        },
+        {
+          type: 'doc',
+          id: 'eoffice/authentication/forgot_password',
+          label: 'Forgot Password'
+        }
+      ]
+    }
   ],
   // But you can create a sidebar manually
   /*

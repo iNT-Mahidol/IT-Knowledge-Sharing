@@ -77,7 +77,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'eoffice',
           position: 'left',
-          label: 'E-Office',
+          label: 'e-Document',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         // {
