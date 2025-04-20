@@ -84,6 +84,13 @@ const sidebars: SidebarsConfig = {
           label: 'Forgot Password'
         }
       ]
+    },
+    {
+      type: 'category',
+      label: 'ระบบงานสารบรรณ (e-Sarabun)',
+      items: [
+        'eoffice/e-sarabun/receive_document'
+      ]
     }
   ],
   // But you can create a sidebar manually
