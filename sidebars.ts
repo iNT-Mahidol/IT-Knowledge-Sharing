@@ -87,7 +87,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'ระบบงานสารบรรณ (e-Sarabun)',
+      label: 'ระบบงานสารบรรณ',
       items: [
         'eoffice/e-sarabun/receive_document',
         'eoffice/e-sarabun/forward_to',
