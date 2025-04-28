@@ -2,11 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</id>
     <title>iNT IT Knowledge Sharing Blog</title>
-    <updated>2025-04-19T00:00:00.000Z</updated>
+    <updated>2025-04-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog"/>
     <subtitle>iNT IT Knowledge Sharing Blog</subtitle>
     <icon>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[มี Generative AI ใช้เอง: ไม่เสียตังตลอดชีพ]]></title>
+        <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm</id>
+        <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm"/>
+        <updated>2025-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[แนะนำการใช้งาน Generative AI แบบออฟไลน์บนเครื่องของคุณ ไม่ต้องเชื่อมอินเทอร์เน็ตหรือมีเงื่อนไขใดๆ]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
+<p>เมื่อเราใช้งาน Generative AI เช่น ChatGPT, Gemini, หรือ Copilot เรามักพบว่าคำตอบที่ได้รับอาจไม่ครบถ้วนสมบูรณ์ หรือในกรณีที่ต้องการคำตอบที่มีความละเอียดและเจาะลึกมากขึ้น เราอาจต้องใช้เวลาในการเขียน <em>prompt</em> อย่างพิถีพิถันหลายรอบเพื่อให้ได้ผลลัพธ์ที่ตรงตามความต้องการ ซึ่งอาจเป็นกระบวนการที่ยุ่งยากและใช้เวลามาก โดยเฉพาะอย่างยิ่งสำหรับผู้ที่ต้องการคำตอบที่มีความแม่นยำสูงและสามารถนำไปใช้งานได้ทันที</p>
+<p>ในบทความนี้ เราจะแนะนำวิธีการตั้งค่าและใช้งาน Generative AI บนเครื่องของคุณเองแบบออฟไลน์ 100% ซึ่งเป็นทางเลือกที่ช่วยลดข้อจำกัดต่างๆ ไม่ว่าจะเป็นการพึ่งพาการเชื่อมต่ออินเทอร์เน็ต การสมัครสมาชิก หรือการจ่ายค่าบริการรายเดือน คุณสามารถใช้งานได้อย่างอิสระโดยไม่มีข้อจำกัดใดๆ และไม่จำเป็นต้องเป็นผู้เชี่ยวชาญด้าน AI ก็สามารถเริ่มต้นใช้งานได้ง่ายๆ ด้วยขั้นตอนที่ไม่ซับซ้อน พร้อมทั้งสามารถปรับแต่งการทำงานของโมเดลให้เหมาะสมกับความต้องการเฉพาะของคุณได้อย่างเต็มที่<br>
+<img decoding="async" loading="lazy" src="https://images.unsplash.com/photo-1694903089438-bf28d4697d9a?q=80&amp;w=2664&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Offline Gen AI" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ทำไมต้องใช้งาน-generative-ai-แบบออฟไลน์">ทำไมต้องใช้งาน Generative AI แบบออฟไลน์<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-generative-ai-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AD%E0%B8%AD%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C" class="hash-link" aria-label="Direct link to ทำไมต้องใช้งาน Generative AI แบบออฟไลน์" title="Direct link to ทำไมต้องใช้งาน Generative AI แบบออฟไลน์">​</a></h2>
+<ul>
+<li>ปลอดภัยต่อข้อมูลส่วนตัว ไม่ต้องส่งข้อความขึ้นคลาวด์</li>
+<li>ไม่มีค่าบริการรายเดือนหรือข้อจำกัดเรื่องโควต้า</li>
+<li>ปรับแต่งและควบคุมพฤติกรรมของโมเดลได้เต็มที่</li>
+<li>ลดความหน่วง (latency) ในการประมวลผล</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="โมเดล-llm-ที่ใช้งานออฟไลน์ได้">โมเดล LLM ที่ใช้งานออฟไลน์ได้<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm#%E0%B9%82%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B8%A5-llm-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%9F%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C%E0%B9%84%E0%B8%94%E0%B9%89" class="hash-link" aria-label="Direct link to โมเดล LLM ที่ใช้งานออฟไลน์ได้" title="Direct link to โมเดล LLM ที่ใช้งานออฟไลน์ได้">​</a></h2>
+<ol>
+<li><strong>Llama 2 (Meta)</strong></li>
+<li><strong>GPT4All</strong></li>
+<li><strong>Mistral</strong></li>
+<li><strong>Gemma3</strong></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ขั้นตอนติดตั้งและใช้งานเบื้องต้น">ขั้นตอนติดตั้งและใช้งานเบื้องต้น<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm#%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99" class="hash-link" aria-label="Direct link to ขั้นตอนติดตั้งและใช้งานเบื้องต้น" title="Direct link to ขั้นตอนติดตั้งและใช้งานเบื้องต้น">​</a></h2>
+<ol>
+<li>ดาวน์โหลดและติดตั้ง Ollama Desktop: ไปที่ <a href="https://ollama.com/" target="_blank" rel="noopener noreferrer">https://ollama.com</a> และเลือก Windows installer</li>
+<li>รันตัวติดตั้งและทำตามขั้นตอนจนเสร็จ</li>
+<li>ดาวน์โหลดและติดตั้ง AnythingLLM Desktop: ไปที่ <a href="https://anythingllm.com/desktop" target="_blank" rel="noopener noreferrer">https://anythingllm.com/desktop</a> และเลือก Windows installer</li>
+<li>รันตัวติดตั้ง AnythingLLM Desktop และทำตามขั้นตอนจนเสร็จ</li>
+<li>เปิด PowerShell แล้วติดตั้งโมเดล llama-3.2:3b<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ollama pull llama-3.2-3b</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>คำอธิบาย:<!-- -->
+<ul>
+<li>"3.2" คือรุ่นของโมเดล</li>
+<li>"3b" หมายถึงจำนวนพารามิเตอร์ประมาณ 3 พันล้าน (b = billion)</li>
+</ul>
+</li>
+<li>การเลือกขนาดโมเดลให้เหมาะสม:<!-- -->
+<ul>
+<li>หากเครื่องมี RAM &gt;= 16&nbsp;GB แนะนำใช้ 3b</li>
+<li>หาก RAM 8–16&nbsp;GB ใช้รุ่น 2b หรือตัวเล็กกว่าเพื่อประสิทธิภาพที่ดี</li>
+</ul>
+</li>
+<li>ตั้งค่า AnythingLLM Desktop:<!-- -->
+<ul>
+<li>8.1 เปิดโปรแกรม AnythingLLM Desktop แล้วเลือกโมเดล "ollama"<br>
+<img decoding="async" loading="lazy" alt="เลือกโมเดล ollama" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/anything-llm-select-model-3e800babeef970cf2f9792a7f5dbf02f.png" width="1639" height="1032" class="img_ev3q"></li>
+<li>8.2 สร้าง Workspace ใหม่: คลิก "New Workspace" แล้วตั้งชื่อตามต้องการ<br>
+<img decoding="async" loading="lazy" alt="สร้าง Workspace" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/anything-llm-create-workspace-e5ca3770b5094812537ca14f38d412fc.png" width="1639" height="1032" class="img_ev3q"></li>
+<li>8.3 เปิดหน้าต่างแชท (Chat) ใน Workspace ที่สร้างขึ้น<br>
+<img decoding="async" loading="lazy" alt="หน้าต่าง Chat" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/start-chat-f0475ddf31851f519db4ad2a806cb232.png" width="1639" height="1032" class="img_ev3q"></li>
+<li>8.4 อัปโหลดไฟล์ Excel ที่ต้องการให้โมเดลวิเคราะห์ลงในหน้าต่างแชท</li>
+<li>8.5 ทดสอบพิมพ์คำสั่ง เช่น<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ช่วยวิเคราะห์ข้อมูลพนักงานในไฟล์นี้และหาพนักงานที่มียอดขายสูงสุด</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">โดยข้อมูลพนักงานจะอยู่ใน Worksheet Employees และข้อมูลการขายจะอยู่ใน Worksheet Orders</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>8.6 ผลับคำตอบจากโมเดลในหน้าต่างแชท<br>
+<img decoding="async" loading="lazy" alt="คำตอบจากโมเดล" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/chat-result-f58349f908ccf12268941742c23d2c6e.png" width="1639" height="1032" class="img_ev3q"></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="สรุป">สรุป<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to สรุป" title="Direct link to สรุป">​</a></h2>
+<p>การใช้งาน Generative AI แบบออฟไลน์บนเครื่องของคุณเองมีข้อดีหลายประการ ทั้งในด้านความปลอดภัย ความสะดวก และความคุ้มค่า โดยในบทความนี้เราได้แนะนำขั้นตอนการติดตั้งและใช้งานโมเดล LLM ที่สามารถทำงานได้แบบออฟไลน์ เช่น Llama 2, GPT4All, Mistral และ Gemma3 ผ่านซอฟต์แวร์อย่าง Ollama Desktop และ AnythingLLM Desktop</p>
+<p>ขั้นตอนเริ่มต้นนั้นไม่ซับซ้อน เพียงดาวน์โหลดและติดตั้งซอฟต์แวร์ที่จำเป็น จากนั้นเลือกโมเดลที่เหมาะสมกับทรัพยากรของเครื่อง เช่น RAM และขนาดของโมเดลที่ต้องการใช้งาน หลังจากตั้งค่าเสร็จ คุณสามารถเริ่มต้นใช้งานได้ทันที ไม่ว่าจะเป็นการวิเคราะห์ข้อมูลในไฟล์ Excel หรือการตั้งคำถามเพื่อให้โมเดลช่วยแก้ปัญหาเฉพาะทาง</p>
+<p>การใช้งาน Generative AI แบบออฟไลน์ช่วยให้คุณสามารถควบคุมข้อมูลและการประมวลผลได้อย่างเต็มที่ ลดความเสี่ยงจากการส่งข้อมูลขึ้นคลาวด์ และยังช่วยลดค่าใช้จ่ายในระยะยาว เนื่องจากไม่มีค่าบริการรายเดือนหรือข้อจำกัดเรื่องโควต้า นอกจากนี้ คุณยังสามารถปรับแต่งโมเดลให้เหมาะสมกับความต้องการเฉพาะของคุณได้อีกด้วย</p>
+<p>ด้วยความสามารถที่หลากหลายและความยืดหยุ่นในการใช้งาน Generative AI แบบออฟไลน์จึงเป็นทางเลือกที่น่าสนใจสำหรับผู้ที่ต้องการประสิทธิภาพสูงสุดโดยไม่ต้องพึ่งพาอินเทอร์เน็ตหรือบริการจากผู้ให้บริการภายนอก</p>]]></content>
+        <author>
+            <name>Patipat Chewprecha (หม่อน)</name>
+            <uri>https://github.com/pcbimon</uri>
+        </author>
+        <category label="Generative AI" term="Generative AI"/>
+        <category label="Offline" term="Offline"/>
+        <category label="LLM" term="LLM"/>
+        <category label="Self-Host" term="Self-Host"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[เตรียมพร้อมสู่ยุคดิจิทัล! ยืนยันตัวตนง่ายๆ ด้วย ThaID สำหรับระบบงานเอกสารอิเล็กทรอนิกส์]]></title>
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/thaid-for-electronic-documents</id>
