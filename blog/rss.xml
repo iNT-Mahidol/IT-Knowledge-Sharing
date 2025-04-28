@@ -65,7 +65,7 @@
 <li>8.5 ทดสอบพิมพ์คำสั่ง เช่น<!-- -->
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ช่วยวิเคราะห์ข้อมูลพนักงานในไฟล์นี้และหาพนักงานที่มียอดขายสูงสุด</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">โดยข้อมูลพนักงานจะอยู่ใน Worksheet Employees และข้อมูลการขายจะอยู่ใน Worksheet Orders</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
-<li>8.6 ผลับคำตอบจากโมเดลในหน้าต่างแชท<br>
+<li>8.6 ผลลัพธ์ที่ได้จากโมเดลในหน้าต่างแชท<br>
 <img decoding="async" loading="lazy" alt="คำตอบจากโมเดล" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/chat-result-f58349f908ccf12268941742c23d2c6e.png" width="1639" height="1032" class="img_ev3q"></li>
 </ul>
 </li>
