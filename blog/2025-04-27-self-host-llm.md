@@ -43,7 +43,7 @@ image: https://images.unsplash.com/photo-1694903089438-bf28d4697d9a?q=80&w=2664&
 4. รันตัวติดตั้ง AnythingLLM Desktop และทำตามขั้นตอนจนเสร็จ  
 5. เปิด PowerShell แล้วติดตั้งโมเดล llama-3.2:3b  
    ```bash
-   ollama pull llama-3.2-3b
+   ollama pull llama-3.2:3b
    ```  
 6. คำอธิบาย:  
    - "3.2" คือรุ่นของโมเดล  
