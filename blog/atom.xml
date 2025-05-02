@@ -2,11 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</id>
     <title>iNT IT Knowledge Sharing Blog</title>
-    <updated>2025-04-27T00:00:00.000Z</updated>
+    <updated>2025-05-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog"/>
     <subtitle>iNT IT Knowledge Sharing Blog</subtitle>
     <icon>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[แนะนำการใช้งาน NotebookLM: ผู้ช่วย AI สำหรับการจัดการข้อมูล]]></title>
+        <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator</id>
+        <link href="https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator"/>
+        <updated>2025-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[เรียนรู้วิธีการใช้งาน NotebookLM จาก Google เพื่อช่วยสรุปการประชุมและสร้างเนื้อหาสำหรับ Podcast พร้อมตัวอย่างการใช้งานจริง]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
+<p>NotebookLM เป็นเครื่องมือ AI จาก Google ที่ออกแบบมาเพื่อช่วยให้ผู้ใช้งานสามารถจัดการข้อมูลและสร้างเนื้อหาได้อย่างมีประสิทธิภาพ ไม่ว่าจะเป็นการสรุปการประชุม การวิเคราะห์ข้อมูล หรือการสร้างเนื้อหาสำหรับ Podcast ในบทความนี้ เราจะพาคุณไปรู้จักกับ NotebookLM และวิธีการใช้งาน พร้อมตัวอย่างการใช้งานจริงที่สามารถนำไปปรับใช้ได้ในชีวิตประจำวัน</p>
+<p><img decoding="async" loading="lazy" src="https://acranger.com/wp-content/uploads/2025/02/featured-89417f5b-3004-405d-b7a5-ea7da8202f75-678x381.jpeg" alt="NotebookLM Overview" class="img_ev3q"></p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="คุณสมบัติเด่นของ-notebooklm">คุณสมบัติเด่นของ NotebookLM<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%94%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87-notebooklm" class="hash-link" aria-label="Direct link to คุณสมบัติเด่นของ NotebookLM" title="Direct link to คุณสมบัติเด่นของ NotebookLM">​</a></h2>
+<ul>
+<li><strong>สรุปข้อมูลอัตโนมัติ</strong>: ช่วยสรุปเนื้อหาจากเอกสารหรือการประชุมได้อย่างรวดเร็ว</li>
+<li><strong>สร้างเนื้อหาใหม่</strong>: เช่น บทความ Podcast หรือสคริปต์สำหรับวิดีโอ</li>
+<li><strong>วิเคราะห์ข้อมูล</strong>: ช่วยวิเคราะห์ข้อมูลเชิงลึกจากไฟล์ Excel หรือเอกสารอื่นๆ</li>
+<li><strong>ปรับแต่งได้ตามความต้องการ</strong>: สามารถตั้งค่าการทำงานให้เหมาะสมกับงานของคุณ</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ข้อจำกัดในระดับ-free">ข้อจำกัดในระดับ Free<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A-free" class="hash-link" aria-label="Direct link to ข้อจำกัดในระดับ Free" title="Direct link to ข้อจำกัดในระดับ Free">​</a></h2>
+<ul>
+<li>จำกัดจำนวนสมุดบันทึกสูงสุด 100 เล่ม และแต่ละเล่มสามารถมีแหล่งข้อมูลได้สูงสุด 50 แหล่ง</li>
+<li>แหล่งข้อมูลแต่ละแหล่งมีความยาวได้สูงสุด 500,000 คำ</li>
+<li>จำกัดการใช้งานรายวัน: สูงสุด 50 คำถามแชท และ 3 การสร้างเสียงต่อวัน</li>
+<li>ฟีเจอร์ขั้นสูง เช่น การแชร์สมุดบันทึกแบบ "Chat-only" และการตั้งค่าการแชทขั้นสูง มีเฉพาะใน NotebookLM Plus</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ตัวอย่างการใช้งาน">ตัวอย่างการใช้งาน<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99" class="hash-link" aria-label="Direct link to ตัวอย่างการใช้งาน" title="Direct link to ตัวอย่างการใช้งาน">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-สรุปการประชุม">1. สรุปการประชุม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#1-%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1" class="hash-link" aria-label="Direct link to 1. สรุปการประชุม" title="Direct link to 1. สรุปการประชุม">​</a></h3>
+<ol>
+<li>
+<p>อัปโหลดไฟล์บันทึกการประชุม หรือ ถ้าหารการประชุมนั้นเข้าถึงด้วยลิงก์ Youtube ให้เลือกใส่ ลิงก์ Youtube ลงใน NotebookLM โดยในครั้งนี้ เราจะใช้ไฟล์บันทึกการประชุมจากลิงก์ Youtube เป็นตัวอย่าง:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kXR481sHi8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+</li>
+<li>
+<p>ใช้คำสั่ง เช่น:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ช่วยสรุปเนื้อหาสำคัญจากการประชุมนี้ให้หน่อย โดยเน้นประเด็นที่สำคัญที่สุด มีความยาวไม่เกิน 3 ย่อหน้า</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>NotebookLM จะสร้างสรุปที่มีประเด็นสำคัญและข้อมูลที่น่าสนใจจากการประชุม</p>
+</li>
+<li>
+<p>คุณสามารถปรับแต่งการสรุปได้ตามต้องการ เช่น เพิ่มรายละเอียดหรือเน้นประเด็นที่สำคัญมากขึ้น หรือแม้กระทั่งสร้างคำถามจากเนื้อหาที่สรุปได้</p>
+</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="สรุปการประชุม" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/notebooklm_summary-cfd325e514583d9cac362083b7009922.jpg" width="1583" height="899" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-สร้าง-podcast">2. สร้าง Podcast<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#2-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-podcast" class="hash-link" aria-label="Direct link to 2. สร้าง Podcast" title="Direct link to 2. สร้าง Podcast">​</a></h3>
+<ol>
+<li>
+<p>เริ่มต้นด้วยการนำข้อมูลจาก YouTube ลิงก์ <a href="https://www.youtube.com/watch?v=HYqEZk-pLYw" target="_blank" rel="noopener noreferrer">สถาบันบริหารจัดการเทคโนโลยีและนวัตกรรม (iNT) มหาวิทยาลัยมหิดล</a> มาใช้เป็นแหล่งข้อมูลสำหรับ Podcast</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HYqEZk-pLYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<p>และลิงก์หน้าเว็บไซต์ <a href="https://int.mahidol.ac.th/" target="_blank" rel="noopener noreferrer">iNT</a> เพื่อให้ NotebookLM สามารถเข้าถึงข้อมูลที่เกี่ยวข้องได้</p>
+</li>
+<li>
+<p>ใช้ NotebookLM เพื่อช่วยสร้างสคริปต์ เช่น:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ช่วยเขียนสคริปต์สำหรับ Podcast อยากให้สถาบันบริหารจัดการเทคโนโลยีและนวัตกรรม (iNT) มหาวิทยาลัยมหิดล มีความน่าสนใจ และเชิญชวนผู้คนต่างๆที่มีความสนใจในงานวิจัย หรือผลิตภัณฑ์ในม.มหิดล เข้ามาติดต่อ และความยาวประมาณ 2 นาที</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>NotebookLM จะสร้างสคริปต์ที่มีโครงสร้างชัดเจน พร้อมเนื้อหาที่น่าสนใจ</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>คำตอบ</div><div class="admonitionContent_BuS1"><p>แน่นอนครับ นี่คือสคริปต์พอดแคสต์สำหรับแนะนำสถาบันบริหารจัดการเทคโนโลยีและนวัตกรรม (iNT) มหาวิทยาลัยมหิดล ความยาวประมาณ 2 นาที โดยเน้นความน่าสนใจและเชิญชวนผู้ที่สนใจงานวิจัยหรือผลิตภัณฑ์ของมหาวิทยาลัยมหิดลครับ</p><p><em>(Intro Music fades)</em></p><p><strong>พิธีกร:</strong> สวัสดีค่ะ ท่านผู้ฟังทุกท่าน วันนี้เราจะพาไปรู้จักกับหนึ่งในหัวใจสำคัญของการขับเคลื่อนนวัตกรรมเพื่อสังคมและเศรษฐกิจ นั่นก็คือ <strong>สถาบันบริหารจัดการเทคโนโลยีและนวัตกรรม หรือ iNT มหาวิทยาลัยมหิดล ค่ะ</strong> [1]</p><p><em>(Short catchy sound effect)</em></p><p><strong>พิธีกร:</strong> คุณรู้ไหมคะว่า ในรั้วมหาวิทยาลัยมหิดล มีองค์ความรู้ งานวิจัย และเทคโนโลยีชั้นเลิศมากมาย [1] แต่บ่อยครั้ง ผลงานเหล่านี้อาจจะยังคงอยู่ในรูปแบบเอกสารวิจัย หรือรอการนำไปต่อยอด [1] ที่ iNT มหิดล <strong>เราพร้อมจะเป็นกุญแจสำคัญในการ "ปลดล็อก" งานวิจัยเหล่านั้น ให้เกิด Global Impact!</strong> [1] เรามุ่งมั่นที่จะนำความรู้และนวัตกรรมจากมหิดลไปใช้ประโยชน์ในเชิงสังคมและเชิงพาณิชย์อย่างแท้จริง [1] โดยประสานความร่วมมือกับองค์กรต่างๆ ทั้งภาครัฐ ภาคเอกชน และภาคอุตสาหกรรม [1]</p><p><strong>พิธีกร:</strong> ที่นี่ เรามีภารกิจหลัก 3 ด้านที่ครอบคลุมและครบวงจรค่ะ [1]
+หนึ่ง <strong>ด้านการบริหารจัดการงานบริการวิชาการ:</strong> เราพร้อมเป็นที่ปรึกษา ดูแลโครงการวิจัยร่วมกับภาคอุตสาหกรรม เชื่อมโยงนักวิจัยผู้เชี่ยวชาญ พร้อมด้วยศูนย์วิจัยและเครื่องมือที่ทันสมัย เพื่อสร้างขีดความสามารถของประเทศ [1]
+สอง <strong>ด้านทรัพย์สินทางปัญญาและการถ่ายทอดเทคโนโลยี:</strong> เราช่วยดูแลเรื่องการจด <strong>สิทธิบัตร อนุสิทธิบัตร ลิขสิทธิ์ และเครื่องหมายทางการค้า</strong> [1] และที่สำคัญคือการผลักดันให้ทรัพย์สินทางปัญญาเหล่านี้ได้นำไปใช้ประโยชน์จริง ทั้งในรูปแบบ <strong>Licensing</strong> หรือการอนุญาตให้ใช้สิทธิ์ในรูปแบบต่างๆ [1] ประสานงานและพัฒนาธุรกิจร่วมกับผู้สนใจ [1]
+สาม <strong>ด้านการสนับสนุนและบ่มเพาะธุรกิจ:</strong> สำหรับนักศึกษา อาจารย์ นักวิจัย หรือบุคลากรมหิดลที่มีไอเดียนวัตกรรม <strong>เราพร้อมผลักดันให้ก้าวสู่การเป็นผู้ประกอบการ</strong> [1] ด้วยโปรแกรม <strong>Incubator และ Accelerator</strong> [1] มีพื้นที่สร้างสรรค์อย่าง <strong>MaSHARES</strong> และเครื่องมือสำหรับสร้างต้นแบบ [1] พร้อม <strong>ทุนสนับสนุนในการพัฒนานวัตกรรมและผู้ประกอบการ</strong> [1] เราสร้างเครือข่ายกับนักลงทุนและภาคเอกชน [1, 2] เพื่อช่วยให้ Startup ของคุณเติบโตได้จริง [1]</p><p><strong>พิธีกร:</strong> ที่ผ่านมา iNT มหิดล ได้ช่วยผลักดันผลงานจนเกิดเป็นรูปธรรมมากมาย [1] ด้วยผลงานสะสม เช่น <strong>Startup กว่า 143 ราย</strong> [3], <strong>สิทธิบัตรเกือบ 300 ฉบับ</strong> [3], และ <strong>อนุสิทธิบัตรกว่า 450 ฉบับ</strong> [3] นอกจากนี้ ยังมี <strong>ลิขสิทธิ์กว่า 3,100 ฉบับ</strong> [3] และสร้างมูลค่าการถ่ายทอดเทคโนโลยีและการวิจัยร่วมรวมกว่า <strong>4,000 ล้านบาท</strong> ในช่วงปีงบประมาณ 2559 – 2568 [3] แสดงให้เห็นถึงศักยภาพและความสำเร็จที่จับต้องได้ค่ะ [3]</p><p><strong>พิธีกร:</strong> หากคุณคือผู้ประกอบการ ภาคอุตสาหกรรม หรือหน่วยงานภาครัฐ ที่กำลังมองหานวัตกรรมและเทคโนโลยีที่ทันสมัย [1] หรือหากคุณคือนักลงทุนที่สนใจ Startup ด้าน Deep Science และ Technology [2] หรือแม้แต่คุณคือประชาชนทั่วไปที่สนใจในผลงานวิจัยและผลิตภัณฑ์จากมหิดล [1, 4] <strong>เราขอเชิญชวนให้คุณเข้ามาพูดคุยกับเราที่ iNT มหาวิทยาลัยมหิดล ค่ะ!</strong> [1] เรามีทีมงานผู้เชี่ยวชาญ พร้อมให้คำแนะนำและเชื่อมโยงคุณกับนวัตกรรมที่ตอบโจทย์ [1] ไม่ว่าจะเป็น <strong>งานบริการวิจัยและวิชาการ</strong> [4], การถ่ายทอดเทคโนโลยี [1], การขอ <strong>ทุนสนับสนุน</strong> [4], หรือการเข้าใช้ <strong>พื้นที่และเครื่องมือต่างๆ</strong> [1, 4] ที่ iNT มหิดล เรามีครบ! [1, 4]</p><p><strong>พิธีกร:</strong> <strong>มาร่วมเป็นส่วนหนึ่งในการขับเคลื่อนนวัตกรรมเพื่อสร้างคุณภาพชีวิตที่ดี และสร้าง Global Impact ไปด้วยกันกับ iNT มหิดล นะคะ!</strong> [1]</p><p><strong>พิธีกร:</strong> <strong>สามารถติดต่อและค้นหาข้อมูลเพิ่มเติมได้ที่เว็บไซต์ของ iNT มหาวิทยาลัยมหิดล</strong> โดยค้นหา <strong>"iNT Mahidol"</strong> ทางออนไลน์ [4] หรือดูรายละเอียด <strong>"ข้อมูลติดต่อสถาบันฯ"</strong> ได้เลยค่ะ [4] <strong>เรายินดีเป็นอย่างยิ่งที่จะได้ร่วมงานกับคุณ!</strong> [1]</p><p><em>(Outro Music starts)</em></p></div></div>
+</li>
+<li>
+<p>ฟีเจอร์การสร้างเสียงใน NotebookLM จะช่วยให้คุณสามารถสร้างเสียง Podcast ได้อย่างง่ายดาย โดยสามารถเลือกเสียงที่ต้องการได้จากหลายแบบ เช่น เสียงผู้หญิง เสียงผู้ชาย หรือแม้กระทั่งเสียงที่มีสำเนียงต่างๆ</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6mNehQ67B8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="สรุป">สรุป<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to สรุป" title="Direct link to สรุป">​</a></h2>
+<p>NotebookLM เป็นเครื่องมือที่ช่วยเพิ่มประสิทธิภาพในการจัดการข้อมูลและสร้างเนื้อหาได้อย่างหลากหลาย ไม่ว่าจะเป็นการสรุปการประชุม การสร้าง Podcast หรือเป็นการสรุปความ หรือวิเคราะห์ข้อมูลอื่นๆ ด้วยความสามารถที่หลากหลายและใช้งานง่าย NotebookLM จึงเป็นตัวช่วยที่เหมาะสำหรับบุคคลทั่วไปที่ต้องการเพิ่มประสิทธิภาพในการทำงานและการสร้างสรรค์เนื้อหา</p>
+<p>เริ่มต้นใช้งาน NotebookLM ได้แล้ววันนี้ที่ <a href="https://notebooklm.google.com/" target="_blank" rel="noopener noreferrer">Google NotebookLM</a></p>]]></content>
+        <author>
+            <name>Patipat Chewprecha (หม่อน)</name>
+            <uri>https://github.com/pcbimon</uri>
+        </author>
+        <category label="NotebookLM" term="NotebookLM"/>
+        <category label="Generative AI" term="Generative AI"/>
+        <category label="Productivity" term="Productivity"/>
+        <category label="Google" term="Google"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[มี Generative AI ใช้เอง: ไม่เสียตังตลอดชีพ]]></title>
         <id>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/self-host-llm</id>
