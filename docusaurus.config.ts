@@ -52,7 +52,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/cropped-iNT_Logo-180x180.png',
