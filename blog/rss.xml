@@ -4,10 +4,87 @@
         <title>iNT IT Knowledge Sharing Blog</title>
         <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog</link>
         <description>iNT IT Knowledge Sharing Blog</description>
-        <lastBuildDate>Sat, 03 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[MiniQR: ฟีเจอร์ทั้งหมดของแอปพลิเคชันสร้าง QR Code]]></title>
+            <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features</link>
+            <guid>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features</guid>
+            <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[สำรวจฟีเจอร์ทั้งหมดของ MiniQR แอปพลิเคชันที่ช่วยให้คุณสร้าง QR Code ได้อย่างง่ายดายและปรับแต่งได้ตามต้องการ]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
+<p>MiniQR เป็นแอปพลิเคชันที่ออกแบบมาเพื่อช่วยให้ผู้ใช้งานสามารถสร้าง QR Code ได้อย่างง่ายดาย พร้อมฟีเจอร์ที่หลากหลายสำหรับการปรับแต่ง QR Code ให้เหมาะสมกับความต้องการของคุณ ไม่ว่าจะเป็นการตั้งค่ากรอบ การเลือกสี หรือการเพิ่มโลโก้ ในบทความนี้ เราจะพาคุณไปรู้จักกับฟีเจอร์ทั้งหมดของ MiniQR
+<img decoding="async" loading="lazy" alt="MiniQR Overview" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/firstpage-7f07bdfe59390542258dd800452d8c41.jpg" width="2187" height="1147" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ส่วนหลัก">ส่วนหลัก<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81" class="hash-link" aria-label="Direct link to ส่วนหลัก" title="Direct link to ส่วนหลัก">​</a></h2>
+<ul>
+<li><strong>QR Code ที่สร้าง</strong>: แสดงตัวอย่าง QR Code ที่กำลังปรับแต่งอยู่</li>
+<li><strong>ตัวเลือกการ Export</strong>:<!-- -->
+<ul>
+<li>Save as PNG</li>
+<li>Save as SVG</li>
+<li>Save as PDF</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ส่วนการตั้งค่า-settings-sections">ส่วนการตั้งค่า (Settings Sections)<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-settings-sections" class="hash-link" aria-label="Direct link to ส่วนการตั้งค่า (Settings Sections)" title="Direct link to ส่วนการตั้งค่า (Settings Sections)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="frame-settings-การตั้งค่ากรอบของ-qr-code">Frame settings: การตั้งค่ากรอบของ QR Code<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#frame-settings-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87-qr-code" class="hash-link" aria-label="Direct link to Frame settings: การตั้งค่ากรอบของ QR Code" title="Direct link to Frame settings: การตั้งค่ากรอบของ QR Code">​</a></h3>
+<ul>
+<li><strong>Add frame</strong>: เพิ่มกรอบให้ QR Code</li>
+<li><strong>Frame text</strong>: เพิ่มข้อความในกรอบ</li>
+<li><strong>Text position</strong>: ตัวเลือกตำแหน่งข้อความ (บน, ล่าง, ซ้าย, ขวา)</li>
+<li><strong>Frame style</strong>: เลือกรูปแบบของกรอบ</li>
+<li><strong>Text color</strong>: เลือกสีข้อความ</li>
+<li><strong>Background color</strong>: เลือกสีพื้นหลัง</li>
+<li><strong>Border color</strong>: เลือกสีขอบ</li>
+<li><strong>Border width</strong>: กำหนดความกว้างของขอบ</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="qr-code-settings-การตั้งค่าเนื้อหาและลักษณะของ-qr-code">QR code settings: การตั้งค่าเนื้อหาและลักษณะของ QR Code<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#qr-code-settings-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%82%E0%B8%AD%E0%B8%87-qr-code" class="hash-link" aria-label="Direct link to QR code settings: การตั้งค่าเนื้อหาและลักษณะของ QR Code" title="Direct link to QR code settings: การตั้งค่าเนื้อหาและลักษณะของ QR Code">​</a></h3>
+<ul>
+<li><strong>Preset</strong>: เลือกค่าที่ตั้งไว้ล่วงหน้า</li>
+<li><strong>Data to encode</strong>: เลือกรูปแบบข้อมูล (ข้อมูลเดี่ยว, นำเข้าข้อมูลแบบกลุ่ม)</li>
+<li><strong>Error correction level</strong>: ตัวเลือกระดับการแก้ไขข้อผิดพลาด (ต่ำ (L), กลาง (M), สูง (Q), สูงสุด (H) / สูงสุดพิเศษ (H++))</li>
+<li><strong>Logo image URL</strong>: ใส่ URL หรืออัปโหลดรูปภาพโลโก้</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="with-background-การตั้งค่าพื้นหลัง">With background: การตั้งค่าพื้นหลัง<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#with-background-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87" class="hash-link" aria-label="Direct link to With background: การตั้งค่าพื้นหลัง" title="Direct link to With background: การตั้งค่าพื้นหลัง">​</a></h3>
+<ul>
+<li><strong>Background color</strong>: เลือกสีพื้นหลัง</li>
+<li><strong>Dots color</strong>: เลือกสีของจุดภายใน QR Code</li>
+<li><strong>Corners Square color</strong>: เลือกสีของมุมสี่เหลี่ยม</li>
+<li><strong>Corners Dot color</strong>: เลือกสีของจุดที่มุม</li>
+<li><strong>Width (px)</strong>: กำหนดความกว้าง</li>
+<li><strong>Height (px)</strong>: กำหนดความสูง</li>
+<li><strong>Border radius (px)</strong>: กำหนดรัศมีของขอบ</li>
+<li><strong>Margin (px)</strong>: กำหนดระยะขอบ</li>
+<li><strong>Image margin (px)</strong>: กำหนดระยะขอบของภาพ</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dots-type-รูปแบบของจุดภายใน-qr-code">Dots type: รูปแบบของจุดภายใน QR Code<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#dots-type-%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99-qr-code" class="hash-link" aria-label="Direct link to Dots type: รูปแบบของจุดภายใน QR Code" title="Direct link to Dots type: รูปแบบของจุดภายใน QR Code">​</a></h3>
+<ul>
+<li>ตัวเลือกต่างๆ เช่น Circle, Rounded, Square, Extra rounded, Diamond, Star, Custom image</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="corners-square-type-รูปแบบของมุมสี่เหลี่ยม">Corners Square Type: รูปแบบของมุมสี่เหลี่ยม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#corners-square-type-%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1" class="hash-link" aria-label="Direct link to Corners Square Type: รูปแบบของมุมสี่เหลี่ยม" title="Direct link to Corners Square Type: รูปแบบของมุมสี่เหลี่ยม">​</a></h3>
+<ul>
+<li>ตัวเลือกต่างๆ เช่น Square, Rounded, Extra rounded</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="corners-dot-type-รูปแบบของจุดที่มุม">Corners Dot Type: รูปแบบของจุดที่มุม<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#corners-dot-type-%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B8%E0%B8%A1" class="hash-link" aria-label="Direct link to Corners Dot Type: รูปแบบของจุดที่มุม" title="Direct link to Corners Dot Type: รูปแบบของจุดที่มุม">​</a></h3>
+<ul>
+<li>ตัวเลือกต่างๆ เช่น Square, Circle</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="scan">Scan<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#scan" class="hash-link" aria-label="Direct link to Scan" title="Direct link to Scan">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ฟีเจอร์การสแกน-qr-code">ฟีเจอร์การสแกน QR Code<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%9F%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%81%E0%B8%81%E0%B8%99-qr-code" class="hash-link" aria-label="Direct link to ฟีเจอร์การสแกน QR Code" title="Direct link to ฟีเจอร์การสแกน QR Code">​</a></h3>
+<ul>
+<li><strong>Scan from Camera</strong>: เปิดกล้องเพื่อสแกน QR Code แบบเรียลไทม์</li>
+<li><strong>Scan from Image</strong>: อัปโหลดรูปภาพเพื่อสแกน QR Code ที่อยู่ในภาพ</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Scan QR" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/scanqr-31fb5c5f357a9d308d22bff6e352da1e.jpg" width="2121" height="967" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="สรุป">สรุป<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B" class="hash-link" aria-label="Direct link to สรุป" title="Direct link to สรุป">​</a></h2>
+<p>MiniQR เป็นแอปพลิเคชันที่ครบครันสำหรับการสร้างและปรับแต่ง QR Code ด้วยฟีเจอร์ที่หลากหลายและใช้งานง่าย คุณสามารถเริ่มต้นใช้งาน MiniQR ได้แล้ววันนี้ที่ <a href="https://pcbimon.github.io/mini-qr/" target="_blank" rel="noopener noreferrer">MiniQR</a></p>]]></content:encoded>
+            <category>QR Code</category>
+            <category>Productivity</category>
+            <category>MiniQR</category>
+            <category>Generative AI</category>
+        </item>
         <item>
             <title><![CDATA[แนะนำการใช้งาน NotebookLM: ผู้ช่วย AI สำหรับการจัดการข้อมูลและสร้างเนื้อหา]]></title>
             <link>https://iNT-Mahidol.github.io/IT-Knowledge-Sharing/blog/notebooklm-content-creator</link>

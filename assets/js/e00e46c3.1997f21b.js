@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkit_knowledge_sharing=self.webpackChunkit_knowledge_sharing||[]).push([[953],{613:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/IT-Knowledge-Sharing/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/IT-Knowledge-Sharing/blog","blogDescription":"Knowledge Sharing Blogs","blogTitle":"Blogs"}}')}}]);
