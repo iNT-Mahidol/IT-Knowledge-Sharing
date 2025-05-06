@@ -17,17 +17,6 @@
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="บทนำ">บทนำ<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%9A%E0%B8%97%E0%B8%99%E0%B8%B3" class="hash-link" aria-label="Direct link to บทนำ" title="Direct link to บทนำ">​</a></h2>
 <p>MiniQR เป็นแอปพลิเคชันที่ออกแบบมาเพื่อช่วยให้ผู้ใช้งานสามารถสร้าง QR Code ได้อย่างง่ายดาย พร้อมฟีเจอร์ที่หลากหลายสำหรับการปรับแต่ง QR Code ให้เหมาะสมกับความต้องการของคุณ ไม่ว่าจะเป็นการตั้งค่ากรอบ การเลือกสี หรือการเพิ่มโลโก้ ในบทความนี้ เราจะพาคุณไปรู้จักกับฟีเจอร์ทั้งหมดของ MiniQR
 <img decoding="async" loading="lazy" alt="MiniQR Overview" src="https://int-mahidol.github.io/IT-Knowledge-Sharing/assets/images/firstpage-7f07bdfe59390542258dd800452d8c41.jpg" width="2187" height="1147" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ส่วนหลัก">ส่วนหลัก<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81" class="hash-link" aria-label="Direct link to ส่วนหลัก" title="Direct link to ส่วนหลัก">​</a></h2>
-<ul>
-<li><strong>QR Code ที่สร้าง</strong>: แสดงตัวอย่าง QR Code ที่กำลังปรับแต่งอยู่</li>
-<li><strong>ตัวเลือกการ Export</strong>:<!-- -->
-<ul>
-<li>Save as PNG</li>
-<li>Save as SVG</li>
-<li>Save as PDF</li>
-</ul>
-</li>
-</ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="ส่วนการตั้งค่า-settings-sections">ส่วนการตั้งค่า (Settings Sections)<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-settings-sections" class="hash-link" aria-label="Direct link to ส่วนการตั้งค่า (Settings Sections)" title="Direct link to ส่วนการตั้งค่า (Settings Sections)">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="frame-settings-การตั้งค่ากรอบของ-qr-code">Frame settings: การตั้งค่ากรอบของ QR Code<a href="https://int-mahidol.github.io/IT-Knowledge-Sharing/blog/miniqr-features#frame-settings-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87-qr-code" class="hash-link" aria-label="Direct link to Frame settings: การตั้งค่ากรอบของ QR Code" title="Direct link to Frame settings: การตั้งค่ากรอบของ QR Code">​</a></h3>
 <ul>
