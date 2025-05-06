@@ -7,7 +7,6 @@ tags:
   - QR Code
   - Productivity
   - MiniQR
-  - Generative AI
 authors:
   - patipat
 image: https://pcbimon.github.io/mini-qr/assets/miniQR-feature-image.png
