@@ -56,8 +56,8 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/cropped-iNT_Logo-180x180.png',
     umami: {
-      websiteid: "22bb42a0-fd45-497e-912c-8e4f3ed2273d", // Insctructions below on how to find this
-      src: "https://cloud.umami.is/script.js", // Instructions below on how to find this
+      websiteid: "6c83bd28-4133-480b-ba3e-d1a945a138ce", // Insctructions below on how to find this
+      src: "https://intseer.mahidol.ac.th/script.js", // Instructions below on how to find this
     },
     navbar: {
       title: 'Knowledge Sharing',
