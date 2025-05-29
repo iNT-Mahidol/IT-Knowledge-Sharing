@@ -78,6 +78,12 @@ const config: Config = {
           position: 'left',
           label: 'E-Office',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'acrobat',
+          position: 'left',
+          label: 'Adobe Acrobat',
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
         // {
         //   type: 'localeDropdown',

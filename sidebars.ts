@@ -95,6 +95,24 @@ const sidebars: SidebarsConfig = {
       ]
     }
   ],
+  acrobat: [
+    {
+      type: 'doc',
+      id: 'acrobat/introduction',
+      label: 'ข้อมูลพื้นฐานเกี่ยวกับ Adobe Acrobat'
+    },
+    {
+      type: 'category',
+      label: 'ฟีเจอร์การใช้งาน Adobe Acrobat',
+      items: [
+        {
+          type: 'doc',
+          id: 'acrobat/feature/stamp',
+          label: 'กำหนดตราประทับ'
+        },
+      ]
+    }
+  ]
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
